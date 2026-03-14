@@ -31,7 +31,7 @@ function NetworkDiagram() {
   const [positions, setPositions] = useState(null);
 
   useEffect(() => {
-    const W = 680, H = 520, R = 22;
+    const W = 680, H = 560, R = 22;
     const nodes = networkNodes.map((n) => ({ ...n }));
     const links = [];
     const linkCounts = {};
@@ -46,14 +46,14 @@ function NetworkDiagram() {
       }
     }
     const sim = d3.forceSimulation(nodes)
-      .force("charge", d3.forceManyBody().strength(-900))
-      .force("center", d3.forceCenter(W / 2, H / 2))
-      .force("collision", d3.forceCollide(R + 20))
+      .force("charge", d3.forceManyBody().strength(-1350))
+      .force("center", d3.forceCenter(W / 2, H * 0.45))
+      .force("collision", d3.forceCollide(R + 30))
       .force("x", d3.forceX(W / 2).strength(0.04))
-      .force("y", d3.forceY(H / 2).strength(0.04))
+      .force("y", d3.forceY(H * 0.45).strength(0.04))
       .force("link", d3.forceLink(links).id((d) => d.id).distance((d) => {
         const k = [d.source.id || d.source, d.target.id || d.target].sort().join("-");
-        return 300 - (linkCounts[k] || 1) * 40;
+        return 450 - (linkCounts[k] || 1) * 60;
       }).strength((d) => {
         const k = [d.source.id || d.source, d.target.id || d.target].sort().join("-");
         return 0.08 + (linkCounts[k] || 1) * 0.06;
@@ -130,7 +130,7 @@ function NetworkDiagram() {
   const svgContent = useMemo(() => {
     if (!positions) return null;
     return (
-      <svg ref={svgRef} viewBox="0 0 680 520" className="w-full">
+      <svg ref={svgRef} viewBox="0 0 680 560" className="w-full">
         {positions.links.map((l, i) => (
           <line key={i} data-link data-sid={l.sid} data-tid={l.tid}
             x1={l.x1} y1={l.y1} x2={l.x2} y2={l.y2}
@@ -146,7 +146,6 @@ function NetworkDiagram() {
               className="cursor-default">
               <circle r={22} fill="var(--color-background-secondary, #f5f4ef)" stroke="var(--color-border-secondary, #b4b2a9)" strokeWidth={0.5} />
               {n.adopted.map((p, i) => (<circle key={p} cx={-totalW / 2 + i * gap} cy={0} r={dotR} fill={pMap[p].color} />))}
-              <text y={-28} textAnchor="middle" fontSize={12} fontWeight={500} fill="var(--color-text-secondary, #5f5e5a)">{n.id}</text>
             </g>
           );
         })}
