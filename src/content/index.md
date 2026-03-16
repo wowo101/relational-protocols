@@ -10,7 +10,25 @@ description: "A brief overview offered as a contribution to collective thinking"
 2. [[Agency in relationship builds collective power]].
 3. [[Participating means enacting protocols]].
 4. [[Every protocol has three layers]].
-5. [[Protocol design is governed by seven principles]].
+5. [[Protocol design is guided by a set of principles]].
 6. [[Protocol stewardship is distributed]].
 7. [[The ecosystem needs to embody a generative cycle]].
 8. [[We design for specific failure modes]].
+
+## Foundations
+
+- [[Protocol draws on three traditions]].
+- [[What scales is the pattern of relating]].
+- [[Norms are constructed through committed practice]].
+- [[Consciousness raising drives protocol evolution]].
+- [[Living systems become protocol domains]].
+
+## Protocol domains
+
+1. [[Collective decision-making]].
+2. [[Conflict engagement]].
+3. [[Resource distribution]].
+4. [[Feedback and learning]].
+5. [[Information flow]].
+6. [[Care and support]].
+7. [[Connection and community]].

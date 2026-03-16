@@ -1,0 +1,8 @@
+---
+title: "Start with simple rules"
+order: 35
+description: "A small set of conceptual tools from which arbitrarily complex network structures can emerge"
+tags: ["principle"]
+---
+
+The entire design rests on a small set of conceptual tools – relational protocols with [[Every protocol has three layers|three layers]], voluntary adoption with consequence, shared commitments as a normative floor. From these, arbitrarily complex network structures can emerge bottom-up, without top-down determination. Resist the urge to pre-specify more than is needed.

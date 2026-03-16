@@ -20,6 +20,6 @@ const allNotes = await getCollection("pages");
 const { Content } = await render(note);
 ---
 
-<NoteLayout title={note.data.title} order={note.data.order} allNotes={allNotes}>
+<NoteLayout title={note.data.title} order={note.data.order} tags={note.data.tags} allNotes={allNotes}>
   <Content />
 </NoteLayout>
