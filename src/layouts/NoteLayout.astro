@@ -1,0 +1,66 @@
+---
+import "../styles/global.css";
+
+const { title, order, allNotes } = Astro.props;
+
+const sorted = allNotes
+  .filter((n) => n.data.order > 0)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const currentIndex = sorted.findIndex((n) => n.data.order === order);
+const prev = currentIndex > 0 ? sorted[currentIndex - 1] : null;
+const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
+
+function noteHref(note) {
+  const slug = note.id.replace(/\.(md|mdx)$/, "").toLowerCase().replace(/\s+/g, "-");
+  return `${import.meta.env.BASE_URL}/notes/${slug}/`;
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} – Fabric</title>
+  </head>
+  <body>
+    <article
+      class="max-w-2xl mx-auto px-4 py-10 text-base"
+      style={{ color: "var(--color-text-primary, #2c2c2a)" }}
+    >
+      <header class="mb-10">
+        <a
+          href={`${import.meta.env.BASE_URL}/notes/`}
+          class="text-sm opacity-50 hover:opacity-80 mb-4 inline-block"
+          >&larr; Overview</a
+        >
+        <h1 class="text-2xl font-medium tracking-tight">{title}</h1>
+      </header>
+
+      <section class="mb-12 leading-relaxed">
+        <slot />
+      </section>
+
+      <nav
+        class="mt-16 pt-6 border-t flex justify-between text-sm"
+        style={{ borderColor: "var(--color-border-tertiary, #d3d1c7)" }}
+      >
+        {prev ? (
+          <a href={noteHref(prev)} class="opacity-60 hover:opacity-100">
+            &larr; {prev.data.title}
+          </a>
+        ) : (
+          <span />
+        )}
+        {next ? (
+          <a href={noteHref(next)} class="opacity-60 hover:opacity-100 text-right">
+            {next.data.title} &rarr;
+          </a>
+        ) : (
+          <span />
+        )}
+      </nav>
+    </article>
+  </body>
+</html>

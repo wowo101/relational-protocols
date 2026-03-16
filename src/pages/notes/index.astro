@@ -1,0 +1,43 @@
+---
+import "../../styles/global.css";
+import { getCollection, render } from "astro:content";
+
+const allNotes = await getCollection("notes");
+const entry = allNotes.find((n) => n.data.order === 0);
+if (!entry) throw new Error("Missing index note (order: 0)");
+const { Content } = await render(entry);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A relational protocol architecture for Fabric</title>
+  </head>
+  <body>
+    <article
+      class="max-w-2xl mx-auto px-4 py-10 text-base"
+      style={{ color: "var(--color-text-primary, #2c2c2a)" }}
+    >
+      <header class="mb-10">
+        <h1 class="text-3xl font-medium tracking-tight mb-3">
+          A relational protocol architecture for Fabric
+        </h1>
+      </header>
+
+      <section class="leading-relaxed">
+        <Content />
+      </section>
+
+      <footer
+        class="mt-16 pt-6 border-t text-sm opacity-50 italic"
+        style={{ borderColor: "var(--color-border-tertiary, #d3d1c7)" }}
+      >
+        This overview synthesises the fuller design exploration. It is a working
+        document inviting revision, with open questions preserved in the source
+        material.
+      </footer>
+    </article>
+  </body>
+</html>

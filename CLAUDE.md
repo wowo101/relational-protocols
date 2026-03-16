@@ -18,26 +18,30 @@ Deployment to GitHub Pages happens automatically on push to `main` via `.github/
 
 ## Repository Structure
 
-- `src/FabricProtocolArchitecture.jsx` — Main React component rendering the full architectural overview as an interactive article. Uses d3.js for a force-directed network diagram and Tailwind CSS for styling. Exports `FabricProtocolArchitecture` as default.
-- `src/main.jsx` — App entry point (renders FabricProtocolArchitecture into `#root`)
-- `src/index.css` — Tailwind CSS import
-- `docs/Fabric_Relational_Protocols_Design_Exploration.md` — The comprehensive design exploration document (source material for the JSX visualization).
-- `docs/protocol_practices_synthesis.md` — Synthesis document connecting philosophy, strategy, organizational design, and pedagogy.
+- `src/content/notes/` — Markdown/MDX content files (also an Obsidian vault). Each note is a page. Wikilinks (`[[Page Name]]`) are resolved by `remark-wiki-link` at build time. Filenames use title case with spaces to match Obsidian's native wikilink resolution.
+- `src/components/diagrams/` — Three React components used as Astro islands:
+  - `NetworkDiagram.jsx` — Interactive d3 force-directed graph with hover tooltips (`client:load`)
+  - `ThreeLayersDiagram.jsx` — Static SVG of the three-layer model (`client:load`)
+  - `GenerativeCycleDiagram.jsx` — Static SVG of the generative cycle (`client:load`)
+- `src/layouts/NoteLayout.astro` — Article layout with prev/next navigation
+- `src/pages/` — Astro routes: root redirect, hub page (`notes/index.astro`), dynamic note route (`notes/[...slug].astro`)
+- `src/content.config.ts` — Astro content collection schema (title, order, description)
+- `astro.config.mjs` — Astro config with React, MDX, Tailwind v4, and remark-wiki-link
+- `docs/` — Source design documents (unchanged)
 
 ## Technical Details
 
-Vite + React single-page app. Dependencies:
-- **React 19** + **react-dom**
-- **d3** (force simulation for the network diagram)
+Astro v6 static site. Dependencies:
+- **Astro** with `@astrojs/react` (islands) and `@astrojs/mdx`
+- **React 19** + **react-dom** (for diagram components)
+- **d3** (force simulation in NetworkDiagram)
 - **Tailwind CSS v4** (via `@tailwindcss/vite` plugin)
-- CSS custom properties for theming (e.g., `--color-text-primary`, `--color-background-secondary`, `--color-border-tertiary`)
+- **remark-wiki-link** (Obsidian-compatible `[[wikilinks]]`)
+- CSS custom properties for theming (e.g., `--color-text-primary`, `--color-background-secondary`)
 
-The `base` in `vite.config.js` is set to `/relational-protocols/` for GitHub Pages.
+The `base` in `astro.config.mjs` is set to `/relational-protocols` for GitHub Pages.
 
-The component contains three SVG diagram sub-components:
-- `NetworkDiagram` — Interactive force-directed graph showing organizations and their shared protocol adoptions. Uses direct DOM manipulation for hover effects to avoid React re-render loops (especially in Firefox).
-- `ThreeLayersDiagram` — Static SVG showing the Interface/Practice/Orientation layer model.
-- `GenerativeCycleDiagram` — Static SVG showing the Commitment → Interdependence → Trust cycle.
+Content uses Astro's content collections with the glob loader. Pure-text notes are `.md`; notes with diagram components are `.mdx`. Both support wikilinks.
 
 ## Key Domain Concepts
 

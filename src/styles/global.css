@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --color-text-primary: #2c2c2a;
+  --color-text-secondary: #5f5e5a;
+  --color-background-primary: #fff;
+  --color-background-secondary: #f5f4ef;
+  --color-border-secondary: #b4b2a9;
+  --color-border-tertiary: #d3d1c7;
+}
+
+a {
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-border-secondary);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.15s;
+}
+
+a:hover {
+  text-decoration-color: var(--color-text-primary);
+}
