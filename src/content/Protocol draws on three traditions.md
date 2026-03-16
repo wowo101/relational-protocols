@@ -1,5 +1,4 @@
 ---
-title: "Protocol draws on three traditions"
 order: 10
 description: "Computing, ceremony, and meta-relationality each contribute distinct properties to the protocol concept"
 ---

@@ -1,5 +1,4 @@
 ---
-title: "Agency in relationship builds collective power"
 order: 2
 description: "People are changed by the relationships they are in, and they change those relationships"
 ---

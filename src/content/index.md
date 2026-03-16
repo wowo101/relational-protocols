@@ -1,5 +1,4 @@
 ---
-title: "A relational protocol architecture for Fabric"
 order: 0
 description: "A brief overview offered as a contribution to collective thinking"
 ---
@@ -12,8 +11,7 @@ description: "A brief overview offered as a contribution to collective thinking"
 4. [[Every protocol has three layers]].
 5. [[Protocol design is guided by a set of principles]].
 6. [[Protocol stewardship is distributed]].
-7. [[The ecosystem needs to embody a generative cycle]].
-8. [[We design for specific failure modes]].
+7. [[Protocols enable a cycle of deepening relationships]].
 
 ## Foundations
 

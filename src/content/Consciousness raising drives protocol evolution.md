@@ -1,5 +1,4 @@
 ---
-title: "Consciousness raising drives protocol evolution"
 order: 13
 description: "Freire's pedagogy and conceptual engineering provide the methodology for the orientation layer"
 ---

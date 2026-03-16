@@ -1,5 +1,4 @@
 ---
-title: "Listen and adapt"
 order: 34
 description: "Treat every protocol's first version as a hypothesis, not a settlement"
 tags: ["principle"]

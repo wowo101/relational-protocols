@@ -1,5 +1,4 @@
 ---
-title: "Living systems become protocol domains"
 order: 14
 description: "The original seven living systems reframed as domains within which clusters of three-layer protocols operate"
 ---

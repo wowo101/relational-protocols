@@ -1,5 +1,4 @@
 ---
-title: "Interrupt separation at the level of structure"
 order: 30
 description: "Requiring all three layers in every protocol makes the interruption of separation structural, not aspirational"
 tags: ["principle"]

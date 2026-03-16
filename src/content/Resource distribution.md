@@ -1,5 +1,4 @@
 ---
-title: "Resource distribution"
 order: 17
 description: "Protocols for how resources flow between organisations – solidarity contributions, co-budgeting, mutual aid"
 tags: ["domain"]

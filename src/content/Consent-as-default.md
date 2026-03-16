@@ -1,5 +1,4 @@
 ---
-title: "Consent-as-default"
 order: 22
 description: "Decisions pass unless someone has a reasoned objection – supplemented with somatic check-ins"
 tags: ["protocol"]

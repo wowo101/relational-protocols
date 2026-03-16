@@ -1,5 +1,4 @@
 ---
-title: "Care and support"
 order: 20
 description: "Protocols for how the network tends to wellbeing and welcomes new members"
 tags: ["domain"]

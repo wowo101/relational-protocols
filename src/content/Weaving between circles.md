@@ -1,5 +1,4 @@
 ---
-title: "Weaving between circles"
 order: 26
 description: "At least one member of each circle participates as a full member of a neighbouring circle"
 tags: ["protocol"]

@@ -1,5 +1,4 @@
 ---
-title: "Design for asymmetry"
 order: 31
 description: "Aspiration doesn't produce equity; structure does – build explicit mechanisms into every interface layer"
 tags: ["principle"]

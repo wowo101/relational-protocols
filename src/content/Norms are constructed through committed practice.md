@@ -1,5 +1,4 @@
 ---
-title: "Norms are constructed through committed practice"
 order: 12
 description: "Protocols are not descriptions of norms but the practices through which norms come into being"
 ---

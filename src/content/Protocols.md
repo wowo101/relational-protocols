@@ -1,5 +1,4 @@
 ---
-title: "Protocols"
 order: 40
 description: "All worked-out protocols in the architecture, grouped by domain"
 tags: ["protocol"]

@@ -1,5 +1,4 @@
 ---
-title: "Boundary-tending"
 order: 29
 description: "The network's capacity to determine that behaviour is incompatible with continued participation"
 tags: ["protocol"]

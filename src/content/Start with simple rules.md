@@ -1,5 +1,4 @@
 ---
-title: "Start with simple rules"
 order: 35
 description: "A small set of conceptual tools from which arbitrarily complex network structures can emerge"
 tags: ["principle"]

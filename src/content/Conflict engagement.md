@@ -1,5 +1,4 @@
 ---
-title: "Conflict engagement"
 order: 16
 description: "Protocols for treating conflict as information and energy rather than failure"
 tags: ["domain"]

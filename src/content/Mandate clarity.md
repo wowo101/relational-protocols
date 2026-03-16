@@ -1,5 +1,4 @@
 ---
-title: "Mandate clarity"
 order: 23
 description: "Every circle articulates what it is responsible for and empowered to decide – and makes this legible"
 tags: ["protocol"]

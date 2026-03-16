@@ -1,5 +1,4 @@
 ---
-title: "Make voice cheap"
 order: 32
 description: "Three-layer governance is costly – without active design, this cost self-selects for the resourced"
 tags: ["principle"]

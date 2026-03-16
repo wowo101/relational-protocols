@@ -1,5 +1,4 @@
 ---
-title: "Connection and community"
 order: 21
 description: "Protocols for how the network cultivates belonging, shared identity, and relational fabric"
 tags: ["domain"]

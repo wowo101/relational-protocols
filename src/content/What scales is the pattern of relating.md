@@ -1,5 +1,4 @@
 ---
-title: "What scales is the pattern of relating"
 order: 11
 description: "Relational transformation is local and slow – but protocols let the pattern scale beyond the dyad"
 ---

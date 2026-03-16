@@ -7,10 +7,7 @@ export async function getStaticPaths() {
   return pages
     .filter((n) => n.data.order > 0)
     .map((note) => {
-      const slug = note.id
-        .replace(/\.(md|mdx)$/, "")
-        .toLowerCase()
-        .replace(/\s+/g, "-");
+      const slug = note.id.toLowerCase().replace(/\s+/g, "-");
       return { params: { slug }, props: { note } };
     });
 }
@@ -20,6 +17,6 @@ const allNotes = await getCollection("pages");
 const { Content } = await render(note);
 ---
 
-<NoteLayout title={note.data.title} order={note.data.order} tags={note.data.tags} allNotes={allNotes}>
+<NoteLayout title={note.id} order={note.data.order} tags={note.data.tags} allNotes={allNotes}>
   <Content />
 </NoteLayout>

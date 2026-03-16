@@ -1,5 +1,4 @@
 ---
-title: "Tending shared roles"
 order: 25
 description: "Key roles rotate on defined terms with overlap periods and honest reflection on power and burden"
 tags: ["protocol"]

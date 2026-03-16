@@ -1,5 +1,4 @@
 ---
-title: "Design for scale"
 order: 33
 description: "Shared protocols create interoperability between strangers, not only between friends"
 tags: ["principle"]

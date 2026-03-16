@@ -1,5 +1,4 @@
 ---
-title: "Feedback and learning"
 order: 18
 description: "Protocols for how the network learns from its own experience – story harvesting, structural review, retrospectives"
 tags: ["domain"]

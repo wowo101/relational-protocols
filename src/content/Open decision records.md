@@ -1,5 +1,4 @@
 ---
-title: "Open decision records"
 order: 24
 description: "All mandates, role holders, and decision records are accessible to anyone in the network"
 tags: ["protocol"]

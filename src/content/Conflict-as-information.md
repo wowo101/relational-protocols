@@ -1,5 +1,4 @@
 ---
-title: "Conflict-as-information"
 order: 27
 description: "Conflict is treated as energy and information about system dynamics, not as failure"
 tags: ["protocol"]

@@ -1,5 +1,4 @@
 ---
-title: "Protocol stewardship is distributed"
 order: 6
 description: "How protocols are created, adopted, evolved, and tended"
 ---

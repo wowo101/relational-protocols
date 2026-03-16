@@ -1,5 +1,4 @@
 ---
-title: "Information flow"
 order: 19
 description: "Protocols for how information moves between circles and organisations"
 tags: ["domain"]

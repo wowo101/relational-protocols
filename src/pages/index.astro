@@ -5,6 +5,7 @@ import { getCollection, render } from "astro:content";
 const allPages = await getCollection("pages");
 const entry = allPages.find((n) => n.data.order === 0);
 if (!entry) throw new Error("Missing index note (order: 0)");
+const indexTitle = "A relational protocol architecture for Fabric";
 const { Content } = await render(entry);
 ---
 
@@ -13,7 +14,7 @@ const { Content } = await render(entry);
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>A relational protocol architecture for Fabric</title>
+    <title>{indexTitle} – Fabric</title>
   </head>
   <body>
     <article
@@ -22,7 +23,7 @@ const { Content } = await render(entry);
     >
       <header class="mb-10">
         <h1 class="text-3xl font-medium tracking-tight mb-3">
-          A relational protocol architecture for Fabric
+          {indexTitle}
         </h1>
       </header>
 

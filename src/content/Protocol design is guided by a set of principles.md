@@ -1,5 +1,4 @@
 ---
-title: "Protocol design is guided by a set of principles"
 order: 5
 description: "Principles that apply whenever protocols are being designed, assessed, or revised"
 ---

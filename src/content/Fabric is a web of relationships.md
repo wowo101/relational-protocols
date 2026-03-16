@@ -1,5 +1,4 @@
 ---
-title: "Fabric is a web of relationships"
 order: 1
 description: "The network's topology emerges from commitments its members actually enact"
 ---
