@@ -17,7 +17,7 @@ export default defineConfig({
         wikiLinkPlugin,
         {
           pageResolver: (name) => [name.toLowerCase().replace(/\s+/g, "-")],
-          hrefTemplate: (slug) => `/relational-protocols/notes/${slug}/`,
+          hrefTemplate: (slug) => `/relational-protocols/${slug}/`,
           aliasDivider: "|",
         },
       ],

@@ -13,7 +13,7 @@ const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
 
 function noteHref(note) {
   const slug = note.id.replace(/\.(md|mdx)$/, "").toLowerCase().replace(/\s+/g, "-");
-  return `${import.meta.env.BASE_URL}/notes/${slug}/`;
+  return `${import.meta.env.BASE_URL}/${slug}/`;
 }
 ---
 
@@ -31,7 +31,7 @@ function noteHref(note) {
     >
       <header class="mb-10">
         <a
-          href={`${import.meta.env.BASE_URL}/notes/`}
+          href={`${import.meta.env.BASE_URL}/`}
           class="text-sm opacity-50 hover:opacity-80 mb-4 inline-block"
           >&larr; Overview</a
         >

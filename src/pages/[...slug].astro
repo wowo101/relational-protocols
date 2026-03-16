@@ -1,10 +1,10 @@
 ---
 import { getCollection, render } from "astro:content";
-import NoteLayout from "../../layouts/NoteLayout.astro";
+import NoteLayout from "../layouts/NoteLayout.astro";
 
 export async function getStaticPaths() {
-  const notes = await getCollection("notes");
-  return notes
+  const pages = await getCollection("pages");
+  return pages
     .filter((n) => n.data.order > 0)
     .map((note) => {
       const slug = note.id
@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 const { note } = Astro.props;
-const allNotes = await getCollection("notes");
+const allNotes = await getCollection("pages");
 const { Content } = await render(note);
 ---
 
