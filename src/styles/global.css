@@ -19,3 +19,18 @@ a {
 a:hover {
   text-decoration-color: var(--color-text-primary);
 }
+
+p, ol, ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 1.5em;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
