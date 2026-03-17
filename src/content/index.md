@@ -8,10 +8,11 @@ description: "A brief overview offered as a contribution to collective thinking"
 1. [[Fabric is a web of relationships]].
 2. [[Agency in relationship builds collective power]].
 3. [[Participating means enacting protocols]].
-4. [[Every protocol has three layers]].
-5. [[Protocol design is guided by a set of principles]].
-6. [[Protocol stewardship is distributed]].
-7. [[Protocols enable a cycle of deepening relationships]].
+4. [[Every protocol has three inseparable layers]].
+5. [[This is a wager, not a blueprint]].
+6. [[Protocol design is guided by a set of principles]].
+7. [[Protocol stewardship is distributed]].
+8. [[Protocols enable a cycle of deepening relationships]].
 
 ## Foundations
 

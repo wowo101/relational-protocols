@@ -10,4 +10,4 @@ The information flow domain governs how information moves through the network. I
 
 **Shared learning** – how insights reach those who need them.
 
-Each protocol requires practice and orientation layers attending to: what information is being suppressed, who controls narrative, and whose stories get amplified. This domain is sketched at the principles level; its specific [[Every protocol has three layers|three-layer]] protocols remain to be developed.
+Each protocol requires practice and orientation layers attending to: what information is being suppressed, who controls narrative, and whose stories get amplified. This domain is sketched at the principles level; its specific [[Every protocol has three inseparable layers|three-layer]] protocols remain to be developed.

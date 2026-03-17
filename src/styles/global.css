@@ -10,14 +10,17 @@
 }
 
 a {
+  color: #3d5a80;
   text-decoration-line: underline;
-  text-decoration-color: var(--color-border-secondary);
+  text-decoration-color: #3d5a8066;
+  text-decoration-thickness: 1.5px;
   text-underline-offset: 2px;
-  transition: text-decoration-color 0.15s;
+  transition: text-decoration-color 0.15s, color 0.15s;
 }
 
 a:hover {
-  text-decoration-color: var(--color-text-primary);
+  color: #2c4466;
+  text-decoration-color: #2c4466;
 }
 
 h2 {

@@ -4,7 +4,7 @@ description: "All worked-out protocols in the architecture, grouped by domain"
 tags: ["protocol"]
 ---
 
-Each protocol below carries all [[Every protocol has three layers|three layers]] – interface, practice, and orientation.
+Each protocol below carries all [[Every protocol has three inseparable layers|three layers]] – interface, practice, and orientation.
 
 ## [[Collective decision-making]]
 

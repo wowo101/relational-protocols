@@ -3,7 +3,7 @@ order: 13
 description: "Freire's pedagogy and conceptual engineering provide the methodology for the orientation layer"
 ---
 
-The [[Every protocol has three layers|three-layer architecture]] describes what protocols are. What it doesn't yet address is how people develop the capacity to participate – how the critical and constructive abilities the orientation layer requires actually grow in practice. This is where Paulo Freire's pedagogy and the practice of conceptual engineering enter the picture.
+The [[Every protocol has three inseparable layers|three-layer architecture]] describes what protocols are. What it doesn't yet address is how people develop the capacity to participate – how the critical and constructive abilities the orientation layer requires actually grow in practice. This is where Paulo Freire's pedagogy and the practice of conceptual engineering enter the picture.
 
 ## Consciousness raising as protocol pedagogy
 

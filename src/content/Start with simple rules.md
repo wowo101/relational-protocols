@@ -4,4 +4,4 @@ description: "A small set of conceptual tools from which arbitrarily complex net
 tags: ["principle"]
 ---
 
-The entire design rests on a small set of conceptual tools – relational protocols with [[Every protocol has three layers|three layers]], voluntary adoption with consequence, shared commitments as a normative floor. From these, arbitrarily complex network structures can emerge bottom-up, without top-down determination. Resist the urge to pre-specify more than is needed.
+The entire design rests on a small set of conceptual tools – relational protocols with [[Every protocol has three inseparable layers|three layers]], voluntary adoption with consequence, shared commitments as a normative floor. From these, arbitrarily complex network structures can emerge bottom-up, without top-down determination. Resist the urge to pre-specify more than is needed.

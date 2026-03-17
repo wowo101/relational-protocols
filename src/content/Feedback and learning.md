@@ -12,4 +12,4 @@ The feedback and learning domain governs how the network learns from its own exp
 
 **Team retrospectives** – how circles reflect on their own health.
 
-Each protocol requires practice and orientation layers attending to: whether feedback practices are extractive, whose knowledge counts, and whether the network is learning or merely reporting. This domain is sketched at the principles level; its specific [[Every protocol has three layers|three-layer]] protocols remain to be developed.
+Each protocol requires practice and orientation layers attending to: whether feedback practices are extractive, whose knowledge counts, and whether the network is learning or merely reporting. This domain is sketched at the principles level; its specific [[Every protocol has three inseparable layers|three-layer]] protocols remain to be developed.

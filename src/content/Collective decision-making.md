@@ -4,7 +4,7 @@ description: "Protocols governing how the network makes decisions together – f
 tags: ["domain"]
 ---
 
-The collective decision-making domain governs how groups within Fabric make decisions on behalf of or affecting others. It is one of the most developed [[Living systems become protocol domains|protocol domains]], with five specific protocols each carrying all [[Every protocol has three layers|three layers]]:
+The collective decision-making domain governs how groups within Fabric make decisions on behalf of or affecting others. It is one of the most developed [[Living systems become protocol domains|protocol domains]], with five specific protocols each carrying all [[Every protocol has three inseparable layers|three layers]]:
 
 - [[Consent-as-default]].
 - [[Mandate clarity]].
