@@ -9,6 +9,6 @@ These principles apply whenever protocols are being designed, assessed, or revis
 2. [[Design for asymmetry]].
 3. [[Make voice cheap]].
 4. [[Design for scale]].
-5. [[Listen and adapt]].
+5. [[Facilitation before formalisation]].
 6. [[Start with simple rules]].
 7. [[Target documented failure modes]].
