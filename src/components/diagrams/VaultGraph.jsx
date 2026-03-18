@@ -1,22 +1,6 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import * as d3 from "d3";
-
-const CATEGORY_COLORS = {
-  "core":   { fill: "#3d5a80", stroke: "#2c4466" },
-  foundation:   { fill: "#5f8a7a", stroke: "#4a6e62" },
-  domain:       { fill: "#3d6b35", stroke: "#2d5028" },
-  protocol:     { fill: "#35456b", stroke: "#283552" },
-  principle:    { fill: "#6b4535", stroke: "#523428" },
-  index:        { fill: "#5f5e5a", stroke: "#4a4944" },
-};
-
-const CATEGORY_LABELS = {
-  "core": "Core",
-  foundation: "Foundation",
-  domain: "Domain",
-  protocol: "Protocol",
-  principle: "Principle",
-};
+import { CATEGORY_COLORS, CATEGORY_LABELS, VISITED_STORAGE_KEY } from "../../lib/constants";
 
 const W = 960, H = 700;
 
@@ -103,7 +87,7 @@ export default function VaultGraph({ nodes, edges, basePath }) {
 
   useEffect(() => {
     try {
-      const raw = localStorage.getItem("rp-visited");
+      const raw = localStorage.getItem(VISITED_STORAGE_KEY);
       if (raw) setVisited(new Set(JSON.parse(raw)));
     } catch {}
   }, []);
@@ -112,7 +96,7 @@ export default function VaultGraph({ nodes, edges, basePath }) {
     setVisited((prev) => {
       const next = new Set(prev);
       next.add(slug);
-      try { localStorage.setItem("rp-visited", JSON.stringify([...next])); } catch {}
+      try { localStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify([...next])); } catch {}
       return next;
     });
   }, []);
@@ -323,7 +307,7 @@ export default function VaultGraph({ nodes, edges, basePath }) {
   }, [applyDistanceHighlight, activeId]);
 
   const clearTrail = useCallback(() => {
-    try { localStorage.removeItem("rp-visited"); } catch {}
+    try { localStorage.removeItem(VISITED_STORAGE_KEY); } catch {}
     setVisited(new Set());
   }, []);
 

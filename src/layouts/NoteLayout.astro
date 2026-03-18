@@ -1,14 +1,9 @@
 ---
 import "../styles/global.css";
 import { toSlug } from "../lib/buildGraphData";
+import { CATEGORY_COLORS, VISITED_STORAGE_KEY } from "../lib/constants";
 
 const { title, order, tags, allNotes, connected, currentSlug } = Astro.props;
-
-const tagColors: Record<string, { bg: string; text: string }> = {
-  domain:    { bg: "#e8f0e4", text: "#3d6b35" },
-  protocol:  { bg: "#e4e8f0", text: "#35456b" },
-  principle: { bg: "#f0e8e4", text: "#6b4535" },
-};
 
 const sorted = allNotes
   .filter((n) => n.data.order > 0)
@@ -45,11 +40,12 @@ function noteHref(id: string) {
         {tags && tags.length > 0 && (
           <div class="mt-3 flex gap-2">
             {tags.map((tag: string) => {
-              const colors = tagColors[tag] || { bg: "#f0f0ed", text: "#5f5e5a" };
+              const c = CATEGORY_COLORS[tag];
+              if (!c) return null;
               return (
                 <span
                   class="inline-block text-xs font-medium px-2.5 py-0.5 rounded-full"
-                  style={{ backgroundColor: colors.bg, color: colors.text }}
+                  style={{ backgroundColor: c.fill + "20", color: c.fill }}
                 >
                   {tag}
                 </span>
@@ -99,13 +95,12 @@ function noteHref(id: string) {
       </nav>
     </article>
 
-    <script define:vars={{ currentSlug }}>
+    <script define:vars={{ currentSlug, visitedKey: VISITED_STORAGE_KEY }}>
       try {
-        const key = "rp-visited";
-        const visited = JSON.parse(localStorage.getItem(key) || "[]");
+        const visited = JSON.parse(localStorage.getItem(visitedKey) || "[]");
         if (!visited.includes(currentSlug)) {
           visited.push(currentSlug);
-          localStorage.setItem(key, JSON.stringify(visited));
+          localStorage.setItem(visitedKey, JSON.stringify(visited));
         }
       } catch {}
     </script>
