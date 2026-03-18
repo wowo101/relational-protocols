@@ -1,7 +1,8 @@
 ---
 import "../styles/global.css";
+import { toSlug } from "../lib/buildGraphData";
 
-const { title, order, tags, allNotes } = Astro.props;
+const { title, order, tags, allNotes, connected, currentSlug } = Astro.props;
 
 const tagColors: Record<string, { bg: string; text: string }> = {
   domain:    { bg: "#e8f0e4", text: "#3d6b35" },
@@ -17,8 +18,8 @@ const currentIndex = sorted.findIndex((n) => n.data.order === order);
 const prev = currentIndex > 0 ? sorted[currentIndex - 1] : null;
 const next = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
 
-function noteHref(note) {
-  return `${import.meta.env.BASE_URL}/${note.id.toLowerCase().replace(/\s+/g, "-")}/`;
+function noteHref(id: string) {
+  return `${import.meta.env.BASE_URL}/${toSlug(id)}/`;
 }
 ---
 
@@ -38,7 +39,7 @@ function noteHref(note) {
         <a
           href={`${import.meta.env.BASE_URL}/`}
           class="text-sm opacity-50 hover:opacity-80 mb-4 inline-block"
-          >&larr; Overview</a
+          >&larr; Home</a
         >
         <h1 class="text-2xl font-medium tracking-tight">{title}</h1>
         {tags && tags.length > 0 && (
@@ -62,19 +63,34 @@ function noteHref(note) {
         <slot />
       </section>
 
+      {connected && connected.length > 0 && (
+        <div
+          class="mt-8 pt-6 border-t text-sm"
+          style={{ borderColor: "var(--color-border-tertiary, #d3d1c7)" }}
+        >
+          <span class="opacity-50">Connected: </span>
+          {connected.map((n, i) => (
+            <>
+              <a href={noteHref(n.id)} class="opacity-60 hover:opacity-100">{n.id}</a>
+              {i < connected.length - 1 && <span class="opacity-30"> · </span>}
+            </>
+          ))}
+        </div>
+      )}
+
       <nav
-        class="mt-16 pt-6 border-t flex justify-between text-sm"
+        class="mt-6 pt-6 border-t flex justify-between text-sm"
         style={{ borderColor: "var(--color-border-tertiary, #d3d1c7)" }}
       >
         {prev ? (
-          <a href={noteHref(prev)} class="opacity-60 hover:opacity-100">
+          <a href={noteHref(prev.id)} class="opacity-60 hover:opacity-100">
             &larr; {prev.id}
           </a>
         ) : (
           <span />
         )}
         {next ? (
-          <a href={noteHref(next)} class="opacity-60 hover:opacity-100 text-right">
+          <a href={noteHref(next.id)} class="opacity-60 hover:opacity-100 text-right">
             {next.id} &rarr;
           </a>
         ) : (
@@ -82,5 +98,16 @@ function noteHref(note) {
         )}
       </nav>
     </article>
+
+    <script define:vars={{ currentSlug }}>
+      try {
+        const key = "rp-visited";
+        const visited = JSON.parse(localStorage.getItem(key) || "[]");
+        if (!visited.includes(currentSlug)) {
+          visited.push(currentSlug);
+          localStorage.setItem(key, JSON.stringify(visited));
+        }
+      } catch {}
+    </script>
   </body>
 </html>
