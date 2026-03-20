@@ -2,10 +2,10 @@ export const VISITED_STORAGE_KEY = "rp-visited";
 
 export const CATEGORY_COLORS: Record<string, { fill: string; stroke: string }> = {
   core:       { fill: "#2563eb", stroke: "#1d4ed8" },   // blue
-  foundation: { fill: "#0d9488", stroke: "#0f766e" },   // teal
+  foundation: { fill: "#db2777", stroke: "#be185d" },   // pink
   domain:     { fill: "#16a34a", stroke: "#15803d" },   // green
   protocol:   { fill: "#8b5cf6", stroke: "#7c3aed" },   // violet
-  principle:  { fill: "#ea580c", stroke: "#c2410c" },   // orange
+  principle:  { fill: "#f59e0b", stroke: "#d97706" },   // amber
   index:      { fill: "#6b7280", stroke: "#4b5563" },   // grey
 };
 
