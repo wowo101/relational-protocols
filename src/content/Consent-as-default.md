@@ -1,5 +1,5 @@
 ---
-order: 22
+order: 23
 description: "Decisions pass unless someone has a reasoned objection – supplemented with somatic check-ins"
 tags: ["protocol"]
 ---

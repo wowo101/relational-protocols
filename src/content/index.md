@@ -18,7 +18,7 @@ description: "A brief overview offered as a contribution to collective thinking"
 
 - [[Protocol draws on three traditions]].
 - [[What scales is the pattern of relating]].
-- [[Norms are constructed through committed practice]].
+- [[Protocols are normative structures]].
 - [[Tension drives development]].
 - [[Diagnosis and construction inform protocol evolution]].
 - [[Living systems become protocol domains]].

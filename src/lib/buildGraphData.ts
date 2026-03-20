@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 export interface GraphNode {
   id: string;
   slug: string;
+  order: number;
   category: "core" | "foundation" | "domain" | "protocol" | "principle" | "index";
   description: string;
   linkCount: number;
@@ -47,6 +48,7 @@ export async function buildGraphData(): Promise<GraphData> {
     .map((p) => ({
       id: p.id,
       slug: toSlug(p.id),
+      order: p.data.order,
       category: deriveCategory(p.data.order, p.data.tags),
       description: p.data.description,
       linkCount: 0,

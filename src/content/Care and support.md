@@ -1,5 +1,5 @@
 ---
-order: 20
+order: 21
 description: "Protocols for how the network tends to wellbeing and welcomes new members"
 tags: ["domain"]
 ---

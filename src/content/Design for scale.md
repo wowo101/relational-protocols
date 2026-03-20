@@ -1,5 +1,5 @@
 ---
-order: 33
+order: 34
 description: "Shared protocols create interoperability between strangers, not only between friends"
 tags: ["principle"]
 ---

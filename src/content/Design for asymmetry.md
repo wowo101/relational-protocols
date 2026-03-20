@@ -1,5 +1,5 @@
 ---
-order: 31
+order: 32
 description: "Aspiration doesn't produce equity; structure does – build explicit mechanisms into every interface layer"
 tags: ["principle"]
 ---

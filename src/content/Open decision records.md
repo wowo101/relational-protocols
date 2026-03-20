@@ -1,5 +1,5 @@
 ---
-order: 24
+order: 25
 description: "All mandates, role holders, and decision records are accessible to anyone in the network"
 tags: ["protocol"]
 ---

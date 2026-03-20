@@ -1,8 +1,7 @@
 ---
 import "../../styles/global.css";
 import { getCollection, render } from "astro:content";
-import NoteLayout from "../../layouts/NoteLayout.astro";
-import { buildGraphData, toSlug } from "../../lib/buildGraphData";
+import { toSlug } from "../../lib/buildGraphData";
 
 export async function getStaticPaths() {
   const pages = await getCollection("pages");
@@ -15,28 +14,14 @@ export async function getStaticPaths() {
 }
 
 const { note } = Astro.props;
-const allNotes = await getCollection("pages");
 const { Content } = await render(note);
-
-const { nodes, edges } = await buildGraphData();
-const currentId = note.id;
-const neighbourIds = new Set<string>();
-for (const e of edges) {
-  if (e.source === currentId) neighbourIds.add(e.target);
-  if (e.target === currentId) neighbourIds.add(e.source);
-}
-const connected = nodes
-  .filter((n) => neighbourIds.has(n.id))
-  .sort((a, b) => a.id.localeCompare(b.id));
 ---
 
-<NoteLayout
-  title={note.id}
-  order={note.data.order}
-  tags={note.data.tags}
-  allNotes={allNotes}
-  connected={connected}
-  currentSlug={toSlug(note.id)}
->
-  <Content />
-</NoteLayout>
+<html lang="en">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <section class="leading-relaxed">
+      <Content />
+    </section>
+  </body>
+</html>

@@ -1,5 +1,5 @@
 ---
-order: 27
+order: 28
 description: "Conflict is treated as energy and information about system dynamics, not as failure"
 tags: ["protocol"]
 ---

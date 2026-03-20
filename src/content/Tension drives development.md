@@ -1,9 +1,9 @@
 ---
-order: 15
+order: 13
 description: "The productive middle between feedback and conflict — where protocols evolve if the tension is held"
 ---
 
-[[Norms are constructed through committed practice|Commitment-structures inherently generate tensions]] between their explicit content and their actual effects. A consent protocol promises equivalence but in practice some voices carry more weight. A resource-sharing protocol promises solidarity but in practice some contributions go unrecognised. These tensions are not design flaws. They are where the architecture does its work — *if* they are held rather than suppressed or resolved too quickly.
+[[Protocols are normative structures|Commitment-structures inherently generate tensions]] between their explicit content and their actual effects. A consent protocol promises equivalence but in practice some voices carry more weight. A resource-sharing protocol promises solidarity but in practice some contributions go unrecognised. These tensions are not design flaws. They are where the architecture does its work — *if* they are held rather than suppressed or resolved too quickly.
 
 ## Feedback, tension, conflict
 

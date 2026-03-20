@@ -1,5 +1,5 @@
 ---
-order: 30
+order: 31
 description: "Requiring all three layers in every protocol makes the interruption of separation structural, not aspirational"
 tags: ["principle"]
 ---

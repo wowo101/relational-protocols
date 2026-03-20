@@ -43,7 +43,7 @@ function ActiveHeader({ title, slug, nodes, basePath, onClose, onNavigate }) {
   return (
     <>
       <div className="flex justify-between items-start mb-2">
-        <h1 className="text-2xl font-medium tracking-tight">{title || "Loading…"}</h1>
+        <h1 className="text-2xl font-medium">{title || "Loading…"}</h1>
         <button onClick={onClose}
           className="text-sm opacity-40 hover:opacity-80 shrink-0 ml-4"
           title="Back to overview">
@@ -81,8 +81,6 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
   const [visited, setVisited] = useState(new Set());
   const [activeSlug, setActiveSlug] = useState(initialSlug);
   const [contentHtml, setContentHtml] = useState(null);
-  const [contentTitle, setContentTitle] = useState(null);
-  const [prevNext, setPrevNext] = useState({ prev: null, next: null });
   const [loading, setLoading] = useState(false);
   const [graphVisible, setGraphVisible] = useState(true);
   const [visibleCategories, setVisibleCategories] = useState(new Set(Object.keys(CATEGORY_LABELS)));
@@ -95,6 +93,25 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
   }, [nodes]);
 
   const activeId = activeSlug ? slugToId.get(activeSlug) : null;
+
+  // Derive title and prev/next from node data (no need to parse fetched HTML)
+  const sortedCoreNodes = useMemo(() =>
+    [...nodes].sort((a, b) => a.order - b.order).filter((n) => n.order > 0),
+    [nodes]
+  );
+  const activeNode = activeSlug ? nodes.find((n) => n.slug === activeSlug) : null;
+  const contentTitle = activeNode ? activeNode.id : "A relational protocol architecture for Fabric";
+  const prevNext = useMemo(() => {
+    if (!activeNode) return { prev: null, next: null };
+    const idx = sortedCoreNodes.findIndex((n) => n.slug === activeSlug);
+    if (idx === -1) return { prev: null, next: null };
+    const prev = idx > 0 ? sortedCoreNodes[idx - 1] : null;
+    const next = idx < sortedCoreNodes.length - 1 ? sortedCoreNodes[idx + 1] : null;
+    return {
+      prev: prev ? { href: `${basePath}/${prev.slug}/`, label: prev.id } : null,
+      next: next ? { href: `${basePath}/${next.slug}/`, label: next.id } : null,
+    };
+  }, [activeNode, activeSlug, sortedCoreNodes, basePath]);
 
   useEffect(() => {
     try {
@@ -163,8 +180,7 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
   }, [positions]);
 
 
-  // Fetch content — index when no node selected, note page otherwise
-  // All content is our own pre-built static HTML from the same origin
+  // Fetch rendered markdown content from raw pages (same origin, pre-built static HTML)
   const fetchContent = useCallback((url) => {
     let cancelled = false;
     setLoading(true);
@@ -174,20 +190,7 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
         if (cancelled) return;
         const doc = new DOMParser().parseFromString(html, "text/html");
         const section = doc.querySelector("section");
-        const h1 = doc.querySelector("h1");
         setContentHtml(section ? section.innerHTML : "<p>Content not found.</p>");
-        setContentTitle(h1 ? h1.textContent : "");
-        // Extract prev/next from the fetched page's nav
-        let prev = null, next = null;
-        doc.querySelectorAll("nav a").forEach((a) => {
-          const text = a.textContent.trim();
-          if (text.includes("←")) {
-            prev = { href: a.getAttribute("href"), label: text.replace(/^←\s*/, "") };
-          } else if (text.includes("→")) {
-            next = { href: a.getAttribute("href"), label: text.replace(/\s*→$/, "") };
-          }
-        });
-        setPrevNext({ prev, next });
         setLoading(false);
         if (contentRef.current) contentRef.current.scrollTop = 0;
       })
@@ -198,12 +201,9 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
   }, []);
 
   useEffect(() => {
-    if (activeSlug) {
-      return fetchContent(`${basePath}/raw/${activeSlug}/`);
-    } else {
-      setPrevNext({ prev: null, next: null });
-      return fetchContent(`${basePath}/raw/overview/`);
-    }
+    return fetchContent(activeSlug
+      ? `${basePath}/raw/${activeSlug}/`
+      : `${basePath}/raw/overview/`);
   }, [activeSlug, basePath, fetchContent]);
 
   // Radial distance-based highlighting

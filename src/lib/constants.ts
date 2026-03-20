@@ -19,6 +19,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
 
 /** Tags that link to an index page when clicked. Slugs only — basePath is prepended at render time. */
 export const TAG_INDEX_SLUGS: Record<string, string> = {
+  domain: "living-systems-become-protocol-domains",
   protocol: "protocols",
   principle: "protocol-design-is-guided-by-a-set-of-principles",
 };
