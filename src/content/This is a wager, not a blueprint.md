@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 8
 description: "Five testable claims – and the conditions under which the architecture would fail"
 ---
 

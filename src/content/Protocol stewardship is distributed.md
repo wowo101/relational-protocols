@@ -1,5 +1,5 @@
 ---
-order: 7
+order: 6
 description: "How protocols are created, adopted, evolved, and tended"
 ---
 

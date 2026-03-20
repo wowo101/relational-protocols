@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import * as d3 from "d3";
-import { CATEGORY_COLORS, CATEGORY_LABELS, VISITED_STORAGE_KEY } from "../../lib/constants";
+import { CATEGORY_COLORS, CATEGORY_LABELS, TAG_INDEX_SLUGS, VISITED_STORAGE_KEY } from "../../lib/constants";
 
 const W = 960, H = 700;
 
@@ -33,11 +33,13 @@ function computeDistances(focalId, edges) {
   return dist;
 }
 
-function ActiveHeader({ title, slug, nodes, onClose }) {
+function ActiveHeader({ title, slug, nodes, basePath, onClose, onNavigate }) {
   const node = nodes.find((n) => n.slug === slug);
   const tag = node?.category;
   const tagLabel = tag && CATEGORY_LABELS[tag];
   const tagColors = tag && CATEGORY_COLORS[tag];
+  const tagIndexSlug = tag && TAG_INDEX_SLUGS[tag];
+  const pillStyle = { backgroundColor: tagColors?.fill + "20", color: tagColors?.fill };
   return (
     <>
       <div className="flex justify-between items-start mb-2">
@@ -50,10 +52,19 @@ function ActiveHeader({ title, slug, nodes, onClose }) {
       </div>
       {tagLabel && (
         <div className="mb-6">
-          <span className="inline-block text-xs font-medium px-2.5 py-0.5 rounded-full"
-            style={{ backgroundColor: tagColors.fill + "20", color: tagColors.fill }}>
-            {tagLabel.toLowerCase()}
-          </span>
+          {tagIndexSlug ? (
+            <a href={`${basePath}/${tagIndexSlug}/`}
+              className="inline-block text-xs font-medium px-2.5 py-0.5 rounded-full hover:opacity-80 transition-opacity"
+              style={{ ...pillStyle, textDecoration: "none" }}
+              onClick={(e) => { e.preventDefault(); onNavigate(tagIndexSlug); }}>
+              {tagLabel.toLowerCase()}
+            </a>
+          ) : (
+            <span className="inline-block text-xs font-medium px-2.5 py-0.5 rounded-full"
+              style={pillStyle}>
+              {tagLabel.toLowerCase()}
+            </span>
+          )}
         </div>
       )}
     </>
@@ -314,6 +325,30 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
     setVisited(new Set());
   }, []);
 
+  const highlightCategory = useCallback((cat) => {
+    const svg = svgRef.current;
+    if (!svg || !positions) return;
+    if (!cat) {
+      // Reset: restore default opacities
+      svg.querySelectorAll("g[data-nid]").forEach((el) => { el.style.opacity = ""; });
+      svg.querySelectorAll("line[data-edge]").forEach((el) => {
+        el.setAttribute("opacity", String(DEFAULT_EDGE_OPACITY));
+      });
+      return;
+    }
+    // Build a set of node IDs in this category
+    const catIds = new Set(positions.nodes.filter((n) => n.category === cat).map((n) => n.id));
+    svg.querySelectorAll("g[data-nid]").forEach((el) => {
+      const nid = el.getAttribute("data-nid");
+      el.style.opacity = catIds.has(nid) ? "1" : "0.08";
+    });
+    svg.querySelectorAll("line[data-edge]").forEach((el) => {
+      const s = el.getAttribute("data-source");
+      const t = el.getAttribute("data-target");
+      el.setAttribute("opacity", (catIds.has(s) || catIds.has(t)) ? "0.4" : "0.03");
+    });
+  }, [positions]);
+
   const toggleCategory = useCallback((cat) => {
     setVisibleCategories((prev) => {
       const next = new Set(prev);
@@ -413,7 +448,12 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
             <div className="absolute bottom-3 left-3 right-3 flex justify-between items-end text-xs opacity-70">
               <div className="flex flex-wrap gap-x-4 gap-y-1">
                 {Object.entries(CATEGORY_LABELS).map(([key, label]) => (
-                  <label key={key} className="flex items-center gap-1.5 cursor-pointer select-none">
+                  <label key={key} className="flex items-center gap-1.5 cursor-pointer select-none"
+                    onMouseEnter={() => highlightCategory(key)}
+                    onMouseLeave={() => {
+                      highlightCategory(null);
+                      if (activeId) applyDistanceHighlight(activeId);
+                    }}>
                     <input type="checkbox" checked={visibleCategories.has(key)}
                       onChange={() => toggleCategory(key)}
                       className="sr-only" />
@@ -450,7 +490,9 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
                 title={contentTitle}
                 slug={activeSlug}
                 nodes={nodes}
+                basePath={basePath}
                 onClose={() => navigateTo(null)}
+                onNavigate={navigateTo}
               />
             )}
             {!activeSlug && contentTitle && (

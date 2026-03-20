@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 import { toSlug } from "../lib/buildGraphData";
-import { CATEGORY_COLORS, VISITED_STORAGE_KEY } from "../lib/constants";
+import { CATEGORY_COLORS, TAG_INDEX_SLUGS, VISITED_STORAGE_KEY } from "../lib/constants";
 
 const { title, order, tags, allNotes, connected, currentSlug } = Astro.props;
 
@@ -42,11 +42,17 @@ function noteHref(id: string) {
             {tags.map((tag: string) => {
               const c = CATEGORY_COLORS[tag];
               if (!c) return null;
-              return (
-                <span
-                  class="inline-block text-xs font-medium px-2.5 py-0.5 rounded-full"
-                  style={{ backgroundColor: c.fill + "20", color: c.fill }}
-                >
+              const indexSlug = TAG_INDEX_SLUGS[tag];
+              const pillClass = "inline-block text-xs font-medium px-2.5 py-0.5 rounded-full";
+              const pillStyle = { backgroundColor: c.fill + "20", color: c.fill };
+              return indexSlug ? (
+                <a href={`${import.meta.env.BASE_URL}/${indexSlug}/`}
+                  class={`${pillClass} hover:opacity-80 transition-opacity`}
+                  style={{ ...pillStyle, textDecoration: "none" }}>
+                  {tag}
+                </a>
+              ) : (
+                <span class={pillClass} style={pillStyle}>
                   {tag}
                 </span>
               );

@@ -1,5 +1,5 @@
 ---
-order: 6
+order: 5
 description: "Principles that apply whenever protocols are being designed, assessed, or revised"
 ---
 
