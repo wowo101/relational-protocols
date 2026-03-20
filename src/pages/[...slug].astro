@@ -1,7 +1,8 @@
 ---
-import { getCollection, render } from "astro:content";
-import NoteLayout from "../layouts/NoteLayout.astro";
+import "../styles/global.css";
+import { getCollection } from "astro:content";
 import { buildGraphData, toSlug } from "../lib/buildGraphData";
+import VaultGraph from "../components/diagrams/VaultGraph.jsx";
 
 export async function getStaticPaths() {
   const pages = await getCollection("pages");
@@ -9,33 +10,29 @@ export async function getStaticPaths() {
     .filter((n) => n.data.order > 0)
     .map((note) => ({
       params: { slug: toSlug(note.id) },
-      props: { note },
+      props: { slug: toSlug(note.id) },
     }));
 }
 
-const { note } = Astro.props;
-const allNotes = await getCollection("pages");
-const { Content } = await render(note);
-
+const { slug } = Astro.props;
 const { nodes, edges } = await buildGraphData();
-const currentId = note.id;
-const neighbourIds = new Set<string>();
-for (const e of edges) {
-  if (e.source === currentId) neighbourIds.add(e.target);
-  if (e.target === currentId) neighbourIds.add(e.source);
-}
-const connected = nodes
-  .filter((n) => neighbourIds.has(n.id))
-  .sort((a, b) => a.id.localeCompare(b.id));
 ---
 
-<NoteLayout
-  title={note.id}
-  order={note.data.order}
-  tags={note.data.tags}
-  allNotes={allNotes}
-  connected={connected}
-  currentSlug={toSlug(note.id)}
->
-  <Content />
-</NoteLayout>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A relational protocol architecture for Fabric</title>
+    <style>body { margin: 0; overflow: hidden; }</style>
+  </head>
+  <body style={{ color: "var(--color-text-primary, #2c2c2a)" }}>
+    <VaultGraph
+      client:load
+      nodes={nodes}
+      edges={edges}
+      basePath={import.meta.env.BASE_URL}
+      initialSlug={slug}
+    />
+  </body>
+</html>

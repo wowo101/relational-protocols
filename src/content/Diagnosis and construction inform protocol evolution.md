@@ -13,7 +13,7 @@ Applied to protocols: the orientation layer's capacity to surface tensions and a
 
 ## Conceptual engineering as constructive complement
 
-Consciousness raising is the diagnostic moment: perceiving patterns that haven't yet been named. Conceptual engineering is the constructive complement: forging the concepts, distinctions, and questions that make the perceived patterns articulable. "Relational protocol" itself is a piece of conceptual engineering – taking a term from computing, diplomacy, and indigenous governance and reworking it into something none of those traditions alone contains. So is the three-layer structure. So are the Organising from Elsewhere guiding questions: "Which experiences are we enabling?" and "Which narrative are we amplifying?"
+Consciousness raising is the diagnostic moment: perceiving patterns that haven't yet been named. Conceptual engineering is the constructive complement: forging the concepts, distinctions, and questions that make the perceived patterns articulable. "Relational protocol" itself is a piece of conceptual engineering – taking a term from technology, diplomacy, and indigenous governance and reworking it into something none of those traditions alone contains. So is the three-layer structure. So are the guiding questions: "Which experiences are we enabling?" and "Which narrative are we amplifying?"
 
 ## The three-moment methodology
 

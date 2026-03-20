@@ -60,7 +60,7 @@ function ActiveHeader({ title, slug, nodes, onClose }) {
   );
 }
 
-export default function VaultGraph({ nodes, edges, basePath }) {
+export default function VaultGraph({ nodes, edges, basePath, initialSlug = null }) {
   const containerRef = useRef(null);
   const svgRef = useRef(null);
   const gRef = useRef(null);
@@ -68,7 +68,7 @@ export default function VaultGraph({ nodes, edges, basePath }) {
   const [positions, setPositions] = useState(null);
   const [tooltip, setTooltip] = useState(null);
   const [visited, setVisited] = useState(new Set());
-  const [activeSlug, setActiveSlug] = useState(null);
+  const [activeSlug, setActiveSlug] = useState(initialSlug);
   const [contentHtml, setContentHtml] = useState(null);
   const [contentTitle, setContentTitle] = useState(null);
   const [prevNext, setPrevNext] = useState({ prev: null, next: null });
@@ -88,7 +88,10 @@ export default function VaultGraph({ nodes, edges, basePath }) {
   useEffect(() => {
     try {
       const raw = localStorage.getItem(VISITED_STORAGE_KEY);
-      if (raw) setVisited(new Set(JSON.parse(raw)));
+      const set = raw ? new Set(JSON.parse(raw)) : new Set();
+      if (initialSlug) set.add(initialSlug);
+      setVisited(set);
+      if (initialSlug) localStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify([...set]));
     } catch {}
   }, []);
 
@@ -185,10 +188,10 @@ export default function VaultGraph({ nodes, edges, basePath }) {
 
   useEffect(() => {
     if (activeSlug) {
-      return fetchContent(`${basePath}/${activeSlug}/`);
+      return fetchContent(`${basePath}/raw/${activeSlug}/`);
     } else {
       setPrevNext({ prev: null, next: null });
-      return fetchContent(`${basePath}/overview/`);
+      return fetchContent(`${basePath}/raw/overview/`);
     }
   }, [activeSlug, basePath, fetchContent]);
 

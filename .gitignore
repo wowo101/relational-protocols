@@ -3,3 +3,5 @@ dist
 .DS_Store
 .codanna
 .astro
+src/content/.obsidian
+src/content/.fastembed_cache
