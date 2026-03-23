@@ -20,7 +20,7 @@ description: "A brief overview offered as a contribution to collective thinking"
 - [[What scales is the pattern of relating]].
 - [[Protocols are normative structures]].
 - [[Tension drives development]].
-- [[Diagnosis and construction inform protocol evolution]].
+- [[Naming experiences is how protocols learn]].
 - [[Living systems become protocol domains]].
 
 ## Protocol domains

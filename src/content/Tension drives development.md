@@ -15,7 +15,7 @@ The architecture currently names two domains for processing what arises in colle
 
 **Conflict** emerges when a tension involves specific harm, specific parties, or has been suppressed long enough to rupture relationship. The [[Conflict-as-information|conflict engagement protocols]] treat this as information and energy, feeding it back into the network's structural learning.
 
-The escalation from feedback through tension to conflict is not inevitable. Tension that is held — named, explored, used to [[Diagnosis and construction inform protocol evolution|generate new understanding]] — drives protocol evolution without becoming conflict. Tension that is suppressed or ignored accumulates until it ruptures. The orientation layer's primary function is to create the conditions under which tensions can be held: surfaced without being instrumentalised, explored without being forced to premature resolution.
+The escalation from feedback through tension to conflict is not inevitable. Tension that is held — named, explored, used to [[Naming experiences is how protocols learn|generate new understanding]] — drives protocol evolution without becoming conflict. Tension that is suppressed or ignored accumulates until it ruptures. The orientation layer's primary function is to create the conditions under which tensions can be held: surfaced without being instrumentalised, explored without being forced to premature resolution.
 
 ## Tensions within and between protocols
 
