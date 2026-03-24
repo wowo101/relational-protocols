@@ -22,5 +22,5 @@ Adopting this protocol is therefore different from adopting most other protocols
 
 ## References
 
-- Image-based strategy sensing adapted from the needs phase in Storch & Krause (2017), *Selbstmanagement – ressourcenorientiert*
 - Mandate description elements adapted from domain description template in Bockelbrink, Priest & David (2019), *Sociocracy 3.0 — A Practical Guide*
+- Image-based strategy sensing adapted from the needs phase in Storch & Krause (2017), *Selbstmanagement – ressourcenorientiert*
