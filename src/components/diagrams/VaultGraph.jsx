@@ -496,7 +496,7 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
               />
             )}
             {!activeSlug && contentTitle && (
-              <h1 className="text-2xl font-medium tracking-tight mb-6">{contentTitle}</h1>
+              <h1 className="text-2xl font-medium mb-6">{contentTitle}</h1>
             )}
             {loading ? (
               <div className="text-sm opacity-50">Loading…</div>
