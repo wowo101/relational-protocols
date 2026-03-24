@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import * as d3 from "d3";
 import { CATEGORY_COLORS, CATEGORY_LABELS, TAG_INDEX_SLUGS, VISITED_STORAGE_KEY } from "../../lib/constants";
 
-const W = 960, H = 700;
+const W = 1080, H = 780;
 
 // Steeper opacity drop-off for BFS distance
 const DISTANCE_OPACITY = [1, 0.55, 0.2, 0.1, 0.06];
@@ -142,12 +142,12 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
     const simEdges = edges.map((e) => ({ ...e }));
 
     const sim = d3.forceSimulation(simNodes)
-      .force("charge", d3.forceManyBody().strength(-420))
+      .force("charge", d3.forceManyBody().strength(-560))
       .force("center", d3.forceCenter(W / 2, H / 2))
-      .force("collision", d3.forceCollide((d) => radiusScale(d.linkCount) + 12))
+      .force("collision", d3.forceCollide((d) => radiusScale(d.linkCount) + 22).iterations(4))
       .force("x", d3.forceX(W / 2).strength(0.04))
       .force("y", d3.forceY(H / 2).strength(0.04))
-      .force("link", d3.forceLink(simEdges).id((d) => d.id).distance(100).strength(0.15));
+      .force("link", d3.forceLink(simEdges).id((d) => d.id).distance(110).strength(0.15));
 
     for (let i = 0; i < 400; i++) sim.tick();
     sim.stop();
