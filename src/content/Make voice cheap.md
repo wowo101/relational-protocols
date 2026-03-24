@@ -1,5 +1,5 @@
 ---
-order: 33
+order: 34
 description: "Three-layer governance is costly – without active design, this cost self-selects for the resourced"
 tags: ["principle"]
 ---

@@ -1,5 +1,5 @@
 ---
-order: 37
+order: 38
 description: "Every structural mechanism should target a specific, empirically observed failure pattern"
 tags: ["principle"]
 ---

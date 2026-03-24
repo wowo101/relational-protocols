@@ -1,5 +1,5 @@
 ---
-order: 30
+order: 31
 description: "The network's capacity to determine that behaviour is incompatible with continued participation"
 tags: ["protocol"]
 ---

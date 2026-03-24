@@ -1,5 +1,5 @@
 ---
-order: 29
+order: 30
 description: "A clear pathway of deepening support as conflict deepens – from direct conversation to structural review"
 tags: ["protocol"]
 ---

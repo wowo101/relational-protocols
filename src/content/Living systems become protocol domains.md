@@ -1,5 +1,5 @@
 ---
-order: 15
+order: 16
 description: "The original seven living systems reframed as domains within which clusters of three-layer protocols operate"
 ---
 

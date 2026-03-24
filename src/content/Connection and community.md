@@ -1,5 +1,5 @@
 ---
-order: 22
+order: 23
 description: "Protocols for how the network cultivates belonging, shared identity, and relational fabric"
 tags: ["domain"]
 ---

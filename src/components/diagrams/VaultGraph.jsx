@@ -45,7 +45,7 @@ function ActiveHeader({ title, slug, nodes, basePath, onClose, onNavigate }) {
       <div className="flex justify-between items-start mb-2">
         <h1 className="text-2xl font-medium">{title || "Loading…"}</h1>
         <button onClick={onClose}
-          className="text-sm opacity-40 hover:opacity-80 shrink-0 ml-4"
+          className="text-sm opacity-40 hover:opacity-80 shrink-0 ml-4 cursor-pointer"
           title="Back to overview">
           ✕
         </button>

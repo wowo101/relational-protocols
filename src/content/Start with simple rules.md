@@ -1,5 +1,5 @@
 ---
-order: 36
+order: 37
 description: "A small set of conceptual tools from which arbitrarily complex network structures can emerge"
 tags: ["principle"]
 ---

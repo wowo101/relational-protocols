@@ -22,3 +22,11 @@ From a **third-person perspective**, an agency-first ontology describes agents a
 From a **first-person perspective**, [Hegelian Constructivism](https://wolfgangwopperer.com/expressivism-constructivism-metaethics) (following Bob Brandom's reading) describes how norms are constituted through social practices of mutual recognition. The space of reasons is fundamentally social — you cannot have commitments without someone to hold you to them — and it is concrete and historical, shaped by the material conditions in which it emerged. This tradition also furnishes ideology critique and the orientation layer's work of examining whether a protocol serves life or reproduces domination.
 
 Neither perspective is dispensable. Third-person explanations that aren't grounded in first-person articulations are imperialist; first-person articulations that don't correspond to third-person explanations are fantastical. The protocol architecture holds both: from the third person, the network is an agent maintaining information closure; from the first person, it is a community constructing its own norms through mutual commitment.
+
+## References
+
+- Brandom (1994), *Making It Explicit: Reasoning, Representing, and Discursive Commitment*
+- Wopperer-Beholz, "Expressivism, Constructivism, and Metaethics" (BA thesis)
+- Bak (1996), *How Nature Works: The Science of Self-Organized Criticality*
+- Friston (2010), "The free-energy principle: a unified brain theory?"
+- Levin (2022), "Technological Approach to Mind Everywhere: An Experimentally-Grounded Framework for Understanding Diverse Bodies and Minds"

@@ -1,5 +1,5 @@
 ---
-order: 16
+order: 17
 description: "Protocols governing how the network makes decisions together – from consent rounds to role rotation"
 tags: ["domain"]
 ---

@@ -1,5 +1,5 @@
 ---
-order: 20
+order: 21
 description: "Protocols for how information moves between circles and organisations"
 tags: ["domain"]
 ---

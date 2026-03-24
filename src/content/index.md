@@ -19,6 +19,7 @@ description: "A brief overview offered as a contribution to collective thinking"
 - [[Protocol draws on three traditions]].
 - [[What scales is the pattern of relating]].
 - [[Protocols are normative structures]].
+- [[Protocols are multi-scale creativity systems]].
 - [[Tension drives development]].
 - [[Naming experiences is how protocols learn]].
 - [[Living systems become protocol domains]].

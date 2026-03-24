@@ -1,5 +1,5 @@
 ---
-order: 35
+order: 36
 description: "Protocols emerge from repeated practice, not from design sessions"
 tags: ["principle"]
 ---
