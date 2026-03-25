@@ -29,3 +29,4 @@ Putting consciousness raising and conceptual engineering together yields a concr
 
 - Consciousness raising as pedagogy from Freire (1968), *Pedagogy of the Oppressed*
 - Local knowledge differentials from Nunes (2021), *Neither Vertical Nor Horizontal: A Theory of Political Organization*
+- Ameliorative concept analysis from Haslanger (2012), *Resisting Reality: Social Construction and Social Critique*
