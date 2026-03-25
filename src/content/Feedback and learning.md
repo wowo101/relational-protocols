@@ -17,3 +17,4 @@ Each protocol requires ritual and compass layers attending to: whether feedback 
 ## Sources
 
 - Evaluate-and-evolve agreements pattern adapted from Bockelbrink, Priest & David (2019), *Sociocracy 3.0 — A Practical Guide*
+- Critique of extractive feedback paradigms from Yunkaporta (2020), *Sand Talk: How Indigenous Thinking Can Save the World*

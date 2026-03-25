@@ -42,3 +42,4 @@ The non-extractive framing matters. You don't *harness* tensions — you *hold* 
 ## Sources
 
 - Generative tension through shared opposition from Farrell (2001), *Collaborative Circles: Friendship Dynamics and Creative Work*
+- Complexity framing of held tensions and safe-to-fail probes from Snowden & Boone (2007), "A Leader's Framework for Decision Making" (*Harvard Business Review*)

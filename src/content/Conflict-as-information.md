@@ -11,3 +11,7 @@ Part of the [[Conflict engagement]] domain.
 **Ritual.** When conflict is named, the first response is to notice it somatically – where does it live in the body? What does the collective tension reveal about what's at stake? This slows the rush to resolution and honours the information conflict carries.
 
 **Compass.** Root-cause inquiry, adapted from transformative justice: when conflict arises, the question is not only "what happened?" but "what conditions made this possible?" The inquiry attends to power differentials, historical patterns, and structural factors.
+
+## Sources
+
+- Root-cause inquiry and conditions-based analysis adapted from Mingus (2019), "Transformative Justice: A Brief Description"

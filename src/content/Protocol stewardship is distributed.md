@@ -16,3 +16,4 @@ description: "How protocols are created, adopted, evolved, and tended"
 ## Sources
 
 - Delegate circle pattern (one structural option for the wisdom function) from Bockelbrink, Priest & David (2019), *Sociocracy 3.0 — A Practical Guide* and Rau (2023), *Collective Power: Patterns for a Self-Organized Future*
+- Organising cores and distributed leadership from Nunes (2021), *Neither Vertical Nor Horizontal: A Theory of Political Organization*
