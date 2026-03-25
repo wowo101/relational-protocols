@@ -1,6 +1,6 @@
 ---
 order: 15
-description: "Freire's pedagogy and conceptual engineering — how the compass layer develops its capacity"
+description: Freire's pedagogy and conceptual engineering – how the compass layer develops its capacity
 ---
 
 The [[Every protocol has three inseparable layers|three-layer architecture]] describes what protocols are. [[Tension drives development|Tensions]] are what committed practice naturally produces. What remains is the methodology: how do people develop the capacity to name what they're experiencing, and how does that naming become protocol evolution? This is where Paulo Freire's pedagogy and the practice of conceptual engineering enter the picture.
@@ -17,13 +17,13 @@ Consciousness raising is the diagnostic moment: perceiving patterns that haven't
 
 ## The three-moment methodology
 
-Putting consciousness raising and conceptual engineering together yields a concrete methodology for the compass layer — the practice through which [[Tension drives development|tensions are held]] and protocols evolve:
+Putting consciousness raising and conceptual engineering together yields a concrete methodology for the compass layer – the practice through which [[Tension drives development|tensions are held]] and protocols evolve:
 
 **The diagnostic moment** (consciousness raising): facilitated inquiry in which protocol participants articulate, from within their shared practice, what tensions they are experiencing. The facilitator's role is Freirean – creating conditions for naming, not supplying the names.
 
 **The constructive moment** (conceptual engineering): when existing concepts don't capture what has been perceived, the group develops new ones – new distinctions, new questions, new metaphors. These become candidates for integration into the protocol itself.
 
-**The integrative moment** (protocol evolution): the revised protocol is adopted through consent, with built-in review dates. The revised practice generates new experience, which surfaces new tensions, which becomes the ground for the next round of naming. Each cycle is [[Facilitation before formalisation]] at the smallest scale — the protocol's next version emerges from the practice of its current one.
+**The integrative moment** (protocol evolution): the revised protocol is adopted through consent, with built-in review dates. The revised practice generates new experience, which surfaces new tensions, which becomes the ground for the next round of naming. Each cycle is [[Facilitation before formalisation]] at the smallest scale – the protocol's next version emerges from the practice of its current one.
 
 ## Sources
 

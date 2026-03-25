@@ -1,7 +1,7 @@
 ---
 order: 29
 description: "Conflict is treated as energy and information about system dynamics, not as failure"
-tags: ["protocol"]
+tags: ["protocol", "conflict"]
 ---
 
 Part of the [[Conflict engagement]] domain.

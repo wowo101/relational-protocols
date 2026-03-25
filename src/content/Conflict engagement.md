@@ -1,7 +1,7 @@
 ---
 order: 18
 description: "Protocols for treating conflict as information and energy rather than failure"
-tags: ["domain"]
+tags: ["domain", "conflict"]
 ---
 
 The conflict engagement domain governs how Fabric holds conflict – not as failure to be resolved but as energy and information about system dynamics. It is one of the fully developed [[Living systems become protocol domains|protocol domains]], with three specific protocols each carrying all [[Every protocol has three inseparable layers|three layers]]:

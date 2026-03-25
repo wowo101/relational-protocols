@@ -2,8 +2,8 @@ import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import * as d3 from "d3";
 
 const protocols = [
-  { id: "decision", label: "Decision-making", color: "#0F6E56" },
-  { id: "resource", label: "Resource flow", color: "#534AB7" },
+  { id: "decisions", label: "Decision-making", color: "#0F6E56" },
+  { id: "resources", label: "Resource flow", color: "#534AB7" },
   { id: "conflict", label: "Conflict engagement", color: "#D85A30" },
   { id: "feedback", label: "Feedback & learning", color: "#185FA5" },
   { id: "care", label: "Care & support", color: "#993556" },
@@ -11,15 +11,15 @@ const protocols = [
 const pMap = Object.fromEntries(protocols.map((p) => [p.id, p]));
 
 const networkNodes = [
-  { id: "A", name: "Grassroots collective", adopted: ["decision", "resource", "conflict", "feedback", "care"] },
-  { id: "B", name: "Housing cooperative", adopted: ["decision", "resource", "conflict", "feedback"] },
-  { id: "C", name: "Mutual aid network", adopted: ["decision", "resource", "conflict", "care"] },
-  { id: "D", name: "Climate action group", adopted: ["decision", "resource", "feedback", "care"] },
-  { id: "E", name: "Workers' cooperative", adopted: ["decision", "resource", "conflict"] },
-  { id: "F", name: "Community garden", adopted: ["decision", "feedback"] },
-  { id: "G", name: "Tenants' union", adopted: ["decision", "care"] },
-  { id: "H", name: "Education collective", adopted: ["decision", "resource", "feedback", "care"] },
-  { id: "I", name: "Food sovereignty project", adopted: ["decision", "resource"] },
+  { id: "A", name: "Grassroots collective", adopted: ["decisions", "resources", "conflict", "feedback", "care"] },
+  { id: "B", name: "Housing cooperative", adopted: ["decisions", "resources", "conflict", "feedback"] },
+  { id: "C", name: "Mutual aid network", adopted: ["decisions", "resources", "conflict", "care"] },
+  { id: "D", name: "Climate action group", adopted: ["decisions", "resources", "feedback", "care"] },
+  { id: "E", name: "Workers' cooperative", adopted: ["decisions", "resources", "conflict"] },
+  { id: "F", name: "Community garden", adopted: ["decisions", "feedback"] },
+  { id: "G", name: "Tenants' union", adopted: ["decisions", "care"] },
+  { id: "H", name: "Education collective", adopted: ["decisions", "resources", "feedback", "care"] },
+  { id: "I", name: "Food sovereignty project", adopted: ["decisions", "resources"] },
 ];
 
 export default function NetworkDiagram() {

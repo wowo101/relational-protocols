@@ -1,7 +1,7 @@
 ---
 order: 31
 description: "The network's capacity to determine that behaviour is incompatible with continued participation"
-tags: ["protocol"]
+tags: ["protocol", "conflict"]
 ---
 
 Part of the [[Conflict engagement]] domain.

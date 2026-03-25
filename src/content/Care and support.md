@@ -1,7 +1,7 @@
 ---
 order: 22
 description: "Protocols for how the network tends to wellbeing and welcomes new members"
-tags: ["domain"]
+tags: ["domain", "care"]
 ---
 
 The care and support domain governs how the network attends to the wellbeing of its members. It includes protocols for:
