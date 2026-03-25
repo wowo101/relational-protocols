@@ -11,13 +11,12 @@ This is how we scale relationships: We form strong relationships of solidarity a
 
 ## Collaborative emergence as mechanism
 
-This claim has a theoretical mechanism in the theory of *collaborative emergence* (Sawyer 2005, 2017). It explains how creative output can emerge from group processes where no single participant's contribution determines the result – the output is irreducible to individual contributions and unpredictable from them. This is the structural logic the protocol architecture relies on: agents who adopt the same protocol develop shared capacities and become interoperable without central coordination, and what they produce together exceeds what any agent could produce alone.
+This claim has a theoretical mechanism in the theory of *collaborative emergence*. It explains how creative output can emerge from group processes where no single participant's contribution determines the result – the output is irreducible to individual contributions and unpredictable from them. This is the structural logic the protocol architecture relies on: agents who adopt the same protocol develop shared capacities and become interoperable without central coordination, and what they produce together exceeds what any agent could produce alone.
 
-A protocol, on this view, is not merely a coordination mechanism – it is a *structure for collaborative emergence*. [[Every protocol has three inseparable layers|Interface]] provides enough shared constraint for meaningful interaction. [[Every protocol has three inseparable layers|Practice]] provides the improvisational capacity to respond to what actually arises. [[Every protocol has three inseparable layers|Orientation]] ensures that what emerges is examined for whose interests it serves.
+A protocol, on this view, is not merely a coordination mechanism – it is a *structure for collaborative emergence*. [[Every protocol has three inseparable layers|Accord]] provides enough shared constraint for meaningful interaction. [[Every protocol has three inseparable layers|Ritual]] provides the improvisational capacity to respond to what actually arises. [[Every protocol has three inseparable layers|Compass]] ensures that what emerges is examined for whose interests it serves.
 
-The challenge will be to not only make the interface layer of a protocol scalable, but also the practice and orientation layers – at least some of them must work between strangers, not only between friends. Do we know if this will work? No – [[This is a wager, not a blueprint]].
+The challenge will be to not only make the accord layer of a protocol scalable, but also the ritual and compass layers – at least some of them must work between strangers, not only between friends. Do we know if this will work? No – [[This is a wager, not a blueprint]].
 
-## References
+## Sources
 
-- Sawyer (2005), *Social Emergence: Societies as Complex Systems*
-- — (2017), *Group Genius: The Creative Power of Collaboration*
+- Collaborative emergence theory from Sawyer (2005), *Social Emergence: Societies as Complex Systems* and (2017), *Group Genius: The Creative Power of Collaboration*

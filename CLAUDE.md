@@ -45,9 +45,20 @@ Content uses Astro's content collections with the glob loader. Pure-text notes a
 
 ## Key Domain Concepts
 
-Every Fabric protocol has three inseparable layers:
-1. **Interface** (technological register) — explicit agreements, version-controlled
-2. **Practice** (ceremonial register) — embodied disciplines that make the interface real
-3. **Orientation** (meta-relational register) — recurring inquiry about whether the protocol serves life or reproduces separation
+Every Fabric protocol has three inseparable layers (ARC):
+1. **Accord** (technological register) — explicit agreements, version-controlled
+2. **Ritual** (ceremonial register) — embodied disciplines that make the accord real
+3. **Compass** (meta-relational register) — recurring inquiry about whether the protocol serves life or reproduces separation
 
 Membership in the network is defined by which protocol clusters an agent adopts, not by position in a hierarchy. The network topology emerges from below.
+
+## Content Conventions
+
+### Sources
+- **No inline citations** in body text. Do not use `(Author Year)` parenthetical references.
+- Author names may appear naturally in prose (e.g., "Sawyer identifies…", "Sarri names…") but without year/parenthetical.
+- All sources go in a `## Sources` section at the end of each note.
+- Source format: `- [topic] (adapted) from Author (Year), *Title*` — lead with what the note draws from the source, then cite it.
+- Examples:
+  - `- Consent process sequence adapted from Bockelbrink, Priest & David (2019), *Sociocracy 3.0 — A Practical Guide*`
+  - `- Collaborative emergence theory from Sawyer (2005), *Social Emergence*`

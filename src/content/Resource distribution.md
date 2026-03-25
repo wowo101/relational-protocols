@@ -12,4 +12,4 @@ The resource distribution domain governs how resources flow between organisation
 
 **Mutual aid** – how members call on each other in crisis.
 
-Each protocol requires practice and orientation layers attending to: whose labour is invisible, whose needs go unmet, and whether resource flows are prefiguring alternatives or reproducing extraction. This domain is sketched at the principles level; its specific [[Every protocol has three inseparable layers|three-layer]] protocols remain to be developed through the process described in [[Protocol stewardship is distributed]].
+Each protocol requires ritual and compass layers attending to: whose labour is invisible, whose needs go unmet, and whether resource flows are prefiguring alternatives or reproducing extraction. This domain is sketched at the principles level; its specific [[Every protocol has three inseparable layers|three-layer]] protocols remain to be developed through the process described in [[Protocol stewardship is distributed]].

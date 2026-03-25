@@ -11,8 +11,8 @@ The word *protocol* carries weight from three distinct traditions, and each depo
 
 **The meta-relational register.** The [Meta-Relationality Institute](https://metarelationality.institute/) (MRI), emerging from the Gesturing Towards Decolonial Futures (GTDF) collective and Vanessa Machado de Oliveira's work on *Hospicing Modernity*, uses "relational protocol" as a container for being-together-across-difference without requiring consensus, convergence, or ideological alignment. Key properties: not consensus but relational coherence (the ability to move responsibly together across differences); orientation before action (layers of inquiry – temporal orientation, positionality, strategy, grief – before any question of "what to do"); designing for asymmetry (participants are differently positioned, differently exposed, differently risked – the protocol names and holds difference rather than pretending equality); and meta-consequence rather than meta-crisis (the polycrisis reframed as a consequence of an imperial system reaching its limits, shifting the design impulse from fixing toward composting).
 
-These three registers are not competing definitions but three dimensions of a single thing. They converge in the claim that [[Every protocol has three inseparable layers]]: interface (technological), practice (ceremonial), and orientation (meta-relational).
+These three registers are not competing definitions but three dimensions of a single thing. They converge in the claim that [[Every protocol has three inseparable layers]]: accord (technological), ritual (ceremonial), and compass (meta-relational).
 
-## References
+## Sources
 
 - Machado de Oliveira (2021), *Hospicing Modernity: Facing Humanity's Wrongs and the Implications for Social Activism*

@@ -15,7 +15,7 @@ The architecture currently names two domains for processing what arises in colle
 
 **Conflict** emerges when a tension involves specific harm, specific parties, or has been suppressed long enough to rupture relationship. The [[Conflict-as-information|conflict engagement protocols]] treat this as information and energy, feeding it back into the network's structural learning.
 
-The escalation from feedback through tension to conflict is not inevitable. Tension that is held — named, explored, used to [[Naming experiences is how protocols learn|generate new understanding]] — drives protocol evolution without becoming conflict. Tension that is suppressed or ignored accumulates until it ruptures. The orientation layer's primary function is to create the conditions under which tensions can be held: surfaced without being instrumentalised, explored without being forced to premature resolution.
+The escalation from feedback through tension to conflict is not inevitable. Tension that is held — named, explored, used to [[Naming experiences is how protocols learn|generate new understanding]] — drives protocol evolution without becoming conflict. Tension that is suppressed or ignored accumulates until it ruptures. The compass layer's primary function is to create the conditions under which tensions can be held: surfaced without being instrumentalised, explored without being forced to premature resolution.
 
 ## Two sources of generative tension
 
@@ -25,20 +25,20 @@ Not all tension is equally generative. The architecture identifies two specific 
 
 **Tension between protocol and dominant paradigm.** Every protocol also exists in tension with the social and organisational defaults it seeks to interrupt – the separation logic that shapes the conditions within which any alternative practice operates. A consent protocol operates against a background of hierarchical decision-making; a solidarity contribution protocol against extractive resource flows. Any new protocol must challenge these defaults, not merely improve on existing internal arrangements.
 
-Research on collaborative circles (Farrell 2001) confirms that such tensions, understood as shared opposition to an internal or external status quo, are what activates the deep trust and risk-taking capacity from which transformative work emerges. Without them, groups can coordinate but may not transform.
+Research on collaborative circles confirms that such tensions, understood as shared opposition to an internal or external status quo, are what activates the deep trust and risk-taking capacity from which transformative work emerges. Without them, groups can coordinate but may not transform.
 
-The orientation layer must attend to both sources simultaneously. It asks: *Is this protocol falling short of its own commitments?* (internal). And: *Is this protocol actually challenging the dominant defaults, or has it quietly accommodated to them?* (external). A protocol that resolves internal tensions but loses contact with external ones has become well-functioning governance rather than prefigurative practice. A protocol that maintains external opposition but ignores internal contradictions has become ideology rather than living commitment.
+The compass layer must attend to both sources simultaneously. It asks: *Is this protocol falling short of its own commitments?* (internal). And: *Is this protocol actually challenging the dominant defaults, or has it quietly accommodated to them?* (external). A protocol that resolves internal tensions but loses contact with external ones has become well-functioning governance rather than prefigurative practice. A protocol that maintains external opposition but ignores internal contradictions has become ideology rather than living commitment.
 
 ## Tensions within and between protocols
 
 Tensions arise not only within protocols but between them. [[Design for asymmetry]] pulls against [[Start with simple rules]]. [[Make voice cheap]] pulls against [[Design for scale]]. [[Facilitation before formalisation]] pulls against the urgency of having something to adopt now. These inter-principle tensions are not bugs in the design — they are the architecture's immune system. A framework without internal tensions has stopped thinking.
 
-The orientation layer is what prevents these tensions from collapsing into either pole. It doesn't resolve the tension between asymmetry and simplicity; it creates the conditions under which a group can ask, in this specific situation, which pull matters more — and revisit that judgement when circumstances change.
+The compass layer is what prevents these tensions from collapsing into either pole. It doesn't resolve the tension between asymmetry and simplicity; it creates the conditions under which a group can ask, in this specific situation, which pull matters more — and revisit that judgement when circumstances change.
 
 ## Holding without extracting
 
-The non-extractive framing matters. You don't *harness* tensions — you *hold* them. The orientation layer doesn't extract insight from discomfort; it creates conditions where what is uncomfortable can speak without being instrumentalised. The practice layer's somatic work is precisely the capacity to remain in contact with tension without rushing to resolve it. This is what distinguishes the architecture from optimisation frameworks that treat every tension as a problem to be solved — and it is why the [[Every protocol has three inseparable layers|three layers must be inseparable]]. Without practice, you lack the embodied capacity to stay with tension. Without orientation, you lack the reflective space to let it speak. Without interface, the tension has nowhere determinate to land.
+The non-extractive framing matters. You don't *harness* tensions — you *hold* them. The compass layer doesn't extract insight from discomfort; it creates conditions where what is uncomfortable can speak without being instrumentalised. The ritual layer's somatic work is precisely the capacity to remain in contact with tension without rushing to resolve it. This is what distinguishes the architecture from optimisation frameworks that treat every tension as a problem to be solved — and it is why the [[Every protocol has three inseparable layers|three layers must be inseparable]]. Without ritual, you lack the embodied capacity to stay with tension. Without compass, you lack the reflective space to let it speak. Without accord, the tension has nowhere determinate to land.
 
-## References
+## Sources
 
-- Farrell (2001), *Collaborative Circles: Friendship Dynamics and Creative Work*
+- Generative tension through shared opposition from Farrell (2001), *Collaborative Circles: Friendship Dynamics and Creative Work*

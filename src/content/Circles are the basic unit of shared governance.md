@@ -9,7 +9,7 @@ The relational protocol architecture does not prescribe organisational forms. It
 
 When a group of agents adopt the [[Collective decision-making]] protocol cluster together — [[Consent-as-default|consent-based decision-making]], [[Mandate clarity|mandate clarity]], [[Open decision records|open decision records]], [[Tending shared roles|role tending]], [[Weaving between circles|weaving]] — around a shared domain, they are constituting a circle. A circle is the *name for the governance pattern that becomes visible* when this particular cluster of protocols is enacted by a group that shares accountability for an area of work and decision-making.
 
-This is not a definition imposed from above. It is a recognition: the sociocratic tradition has independently developed and tested this pattern for decades, calling it a *circle* — a self-governing group of equivalent people who collaborate to account for a domain. What Fabric adds is the three-layer discipline: every circle's governance is held through interface, practice, and orientation, not just through rules.
+This is not a definition imposed from above. It is a recognition: the sociocratic tradition has independently developed and tested this pattern for decades, calling it a *circle* — a self-governing group of equivalent people who collaborate to account for a domain. What Fabric adds is the three-layer discipline: every circle's governance is held through accord, ritual, and compass, not just through rules.
 
 ## Circles are one structural form among several
 
@@ -29,11 +29,11 @@ Domains can contain sub-domains. When a circle delegates a sub-domain to a small
 
 Like every structural commitment in Fabric, circles are held through all [[Every protocol has three inseparable layers|three layers]]:
 
-**Interface.** A circle has a named domain, documented mandate, and explicit membership. It makes decisions by [[Consent-as-default|consent]]. It maintains [[Open decision records]]. Roles within the circle are selected by consent and held for defined terms (see [[Tending shared roles]]).
+**Accord.** A circle has a named domain, documented mandate, and explicit membership. It makes decisions by [[Consent-as-default|consent]]. It maintains [[Open decision records]]. Roles within the circle are selected by consent and held for defined terms (see [[Tending shared roles]]).
 
-**Practice.** Circle members develop the embodied disciplines of meeting in rounds, checking in somatically before governance decisions, and holding the difference between role and person — the *role vs. soul* distinction. These practices are not add-ons; they are what make the interface layer liveable.
+**Ritual.** Circle members develop the embodied disciplines of meeting in rounds, checking in somatically before governance decisions, and holding the difference between role and person — the *role vs. soul* distinction. These practices are not add-ons; they are what make the accord layer liveable.
 
-**Orientation.** The circle periodically asks: Has this domain become a site of accumulation? Whose voice is absent from our rounds? Does our boundary serve life or reproduce separation? Is the circle's governance enabling creative emergence or merely administering compliance?
+**Compass.** The circle periodically asks: Has this domain become a site of accumulation? Whose voice is absent from our rounds? Does our boundary serve life or reproduce separation? Is the circle's governance enabling creative emergence or merely administering compliance?
 
 ## How circles relate to each other
 
@@ -43,7 +43,7 @@ When multiple circles exist in the network, their domains will overlap and inter
 
 **Delegation.** When multiple circles need to align governance across their domains, they can form a delegate circle — each constituent circle selects a member to participate in a shared governance space. This is one possible mechanism for network-wide functions like the [[Protocol stewardship is distributed|wisdom function]].
 
-## References
+## Sources
 
 - Circle concept, governance/operations distinction, and domain model from Bockelbrink, Priest & David (2019), *Sociocracy 3.0 — A Practical Guide*
 - Circle concept, "role vs. soul" distinction, and governance/operations distinction from Rau (2023), *Collective Power: Patterns for a Self-Organized Future*

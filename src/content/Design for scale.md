@@ -14,7 +14,7 @@ At the same time, build in federation and mitosis mechanisms before they are nee
 
 See also [[What scales is the pattern of relating]].
 
-## References
+## Sources
 
 - Fractal organisation pattern adapted from Bockelbrink, Priest & David (2019), *Sociocracy 3.0 — A Practical Guide*
 - Evolutionary circle structure from Rau (2023), *Collective Power: Patterns for a Self-Organized Future*
