@@ -3,7 +3,6 @@ order: 18
 description: "Protocols for treating conflict as information and energy rather than failure"
 tags: ["area", "conflict"]
 ---
-
 The conflict engagement area governs how Fabric holds conflict – not as failure to be resolved but as [[Tension drives development|energy and information about system dynamics]]. It is one of the more developed protocol areas with three specific protocols:
 
 - [[Conflict-as-information]]

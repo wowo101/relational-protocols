@@ -3,7 +3,6 @@ order: 31
 description: "The network's capacity to determine that behaviour is incompatible with continued participation"
 tags: ["protocol", "conflict"]
 ---
-
 Part of the [[Conflict engagement]] area.
 
 **Accord.** The network can, through a defined and transparent process, determine that a member's behaviour is incompatible with continued participation. The process involves multiple rounds of engagement before reaching this point.

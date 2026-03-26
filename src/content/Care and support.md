@@ -3,7 +3,6 @@ order: 22
 description: "Protocols for how the network tends to wellbeing and welcomes new members"
 tags: ["area", "care"]
 ---
-
 The care and support area governs how the network attends to the wellbeing of its members. It includes protocols for:
 
 **Mutual support** – how groups attend to each other's wellbeing.

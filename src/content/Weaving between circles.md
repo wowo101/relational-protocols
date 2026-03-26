@@ -3,7 +3,6 @@ order: 28
 description: "At least one member of each circle participates as a full member of a neighbouring circle"
 tags: ["protocol", "decisions"]
 ---
-
 Part of the [[Collective decision-making]] area.
 
 **Accord.** At least one member of each [[Circles are a basic unit of shared governance|circle]] participates as a full member of a neighbouring circle – not as a "representative" reporting back, but as someone who genuinely holds both relationships simultaneously. Two circles are neighbours when their domains overlap, when one circle's decisions regularly affect the other's domain, or when one is a sub-circle of the other. The weaver is selected by the circle they come from, for a limited term, and participates fully in the governance of the receiving circle – raising agenda items, forming proposals, and raising objections. This is Fabric's adaptation of the sociocratic linking mechanism, with a deliberate departure: where conventional linking sends a representative to "stand for the interests" of one circle in another, Fabric's weaver holds both relationships as their own.

@@ -3,7 +3,6 @@ order: 6
 description: "How protocols are created, adopted, evolved, and tended"
 tags: ["core"]
 ---
-
 **Shared commitments.** All protocols must serve a small set of collectively derived commitments, including an explicit reckoning with racialisation, colonialism, and extractive domination as foundational structures Fabric exists within. The precise formulation is to be developed collectively, based on existing resources like the Dedications.
 
 **Creating protocols.** New protocols are proposed in response to identified needs. Before adoption, every protocol undergoes an inquiry into asymmetry (who benefits, who is burdened, whose ways of knowing are privileged) and narrative (which experiences does this enable, which narrative does it amplify?), a [[Every protocol has three inseparable layers|three-layer]] completeness check, and a [[Consent-as-default|consent]] round among those affected.

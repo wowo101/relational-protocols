@@ -3,7 +3,6 @@ order: 13
 description: "The protocol architecture creates conditions for collaborative emergence at scale"
 tags: ["foundation"]
 ---
-
 At a structural level, the protocol architecture is a system for *collaborative emergence* at scale. This is not a metaphor but a structural description: the architecture creates conditions under which the outputs of collective practice exceed what any individual agent could have planned or produced alone.
 
 Research on group creativity identifies three conditions for collaborative emergence: sufficient structure to orient action, sufficient improvisation to respond to what arises, and the irreducibility of the group's output to any individual contribution. The [[Every protocol has three inseparable layers|three-layer protocol model]] instantiates all three: accord provides structure, ritual provides improvisation, and the group's commitments-in-practice produce outcomes that no single agent authored.

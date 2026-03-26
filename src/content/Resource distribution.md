@@ -3,7 +3,6 @@ order: 19
 description: "Protocols for how resources flow between organisations – solidarity contributions, co-budgeting, mutual aid"
 tags: ["area", "resources"]
 ---
-
 The resource distribution area governs how resources flow between the nodes of the network. It is central to [[Protocols enable a cycle of deepening relationships|enable a cycle of deepening relationships]]. It includes protocols for:
 
 **Solidarity contributions** – how resources flow between network members of different means, with what transparency, governed by what contribution and distribution criteria.

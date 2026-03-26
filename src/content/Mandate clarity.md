@@ -3,7 +3,6 @@ order: 25
 description: "The meta-protocol governing how functional responsibilities within Fabric are defined, held, and reviewed"
 tags: ["protocol", "decisions"]
 ---
-
 Part of the [[Collective decision-making]] area.
 
 Mandate Clarity is a meta-protocol: it does not itself assign a functional responsibility, but governs *how* functional responsibilities – mandates – are defined, held, and reviewed across the network. A mandate is a specific agreement through which a node accepts accountability for a bounded area of work and decision-making on behalf of the network. Mandates can be held by:

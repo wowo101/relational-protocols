@@ -3,7 +3,6 @@ order: 10
 description: "Technology, ceremony, and meta-relationality each contribute distinct properties to the protocol concept"
 tags: ["foundation"]
 ---
-
 The word *protocol* carries weight from three distinct traditions, and each deposits something essential in Fabric's use of the term.
 
 **The technological register.** In computing, a protocol is an agreed-upon set of rules enabling communication between autonomous entities without a central controller. TCP/IP, HTTP, SMTP – these are agreements about *how to relate* that make the internet possible. Key properties Fabric inherits: interoperability without uniformity (participants need not be alike, only follow the same rules at the interface); layering (higher-level protocols depend on lower-level ones); version control and evolution (protocols change through defined processes, and backwards compatibility matters); and voluntary adoption with network effects (no one is forced to use HTTP, but because so many do, the benefits of adoption are enormous).

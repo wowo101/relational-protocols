@@ -3,7 +3,6 @@ order: 29
 description: "Conflict is treated as energy and information about system dynamics, not as failure"
 tags: ["protocol", "conflict"]
 ---
-
 Part of the [[Conflict engagement]] area.
 
 **Accord.** The network treats conflict not as failure but as energy and information about system dynamics. Any member can name a conflict without it being treated as a problem to be solved or a person to be blamed.

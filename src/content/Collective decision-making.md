@@ -3,7 +3,6 @@ order: 17
 description: "Protocols governing how the network makes decisions together – from consent rounds to role rotation"
 tags: ["area", "decisions"]
 ---
-
 The collective decision-making area governs how groups within Fabric make decisions on behalf of or affecting others. It is one of the most developed areas with five specific protocols:
 
 - [[Consent-as-default]]

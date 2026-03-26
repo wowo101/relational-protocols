@@ -3,7 +3,6 @@ order: 16.5
 description: "When agents adopt the collective decision-making protocols together around a shared domain, the governance structure that emerges is a circle"
 tags: ["decisions"]
 ---
-
 The relational protocol architecture does not prescribe organisational forms. It provides a grammar – [[Every protocol has three inseparable layers|three-layer protocols]], voluntary adoption, shared commitments – from which structure emerges. But some structural patterns recur, and it is worth naming them. The most recognisable is the *circle*.
 
 ## Circles emerge from shared protocol adoption

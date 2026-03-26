@@ -3,7 +3,6 @@ order: 8
 description: "Five testable claims – and the conditions under which the architecture would fail"
 tags: ["core"]
 ---
-
 Everything described so far could be wrong. The architecture does not claim certainty; it claims testability. The bet is this:
 
 If autonomous agents adopt shared protocols with [[Every protocol has three inseparable layers|three inseparable layers]] – accord, ritual, and compass – the resulting network will build collective power *in the service of life*: not merely more effective coordination, but collective agency that actively promotes life-affirmig practices and interrupts the reproduction of separation.

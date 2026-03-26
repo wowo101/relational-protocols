@@ -5,7 +5,6 @@ tags:
   - area
   - information
 ---
-
 The information flow area governs how information moves through the network. It includes protocols for:
 
 **Transparent communication** – how information moves between nodes of the network. The primary structural mechanism for inter-circle information flow is linking or [[Weaving between circles|weaving]]: the weaver carries not only decisions and agenda items but felt experience between the two spaces they inhabit. Weaving thus double-functions as a mechanism for both governance alignment and information flow. Where circles are not directly linked, [[Open decision records]] ensure that governance information is accessible to anyone in the network.

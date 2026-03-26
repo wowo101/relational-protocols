@@ -3,7 +3,6 @@ order: 38
 description: "Every structural mechanism should target a specific, empirically observed failure pattern"
 tags: ["principle"]
 ---
-
 Every structural mechanism – rotation, caps, redistribution triggers, stewardship pairs, participation budgets – should target a specific, empirically observed failure pattern, not a theoretical risk. Design against what has actually gone wrong in comparable networks.
 
 The architecture is designed around four empirically documented failure patterns from comparable networks and movements:

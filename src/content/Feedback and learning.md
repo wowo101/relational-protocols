@@ -3,7 +3,6 @@ order: 20
 description: "Protocols for how the network learns from its own experience – story harvesting, structural review, retrospectives"
 tags: ["area", "feedback"]
 ---
-
 The feedback and learning area governs how the network learns from its own experience by surfacing and processing tensions. It is central to Fabric because [[tension drives development]]; it provides the input and feedback necessary for [[Protocol stewardship is distributed|distributed protocol stewardship]].
 
 The area includes protocols for:

@@ -3,7 +3,6 @@ order: 5
 description: "Principles that apply whenever protocols are being designed, assessed, or revised"
 tags: ["core"]
 ---
-
 These principles apply whenever protocols are being designed, assessed, or revised.
 
 1. [[Interrupt separation at the level of structure]].

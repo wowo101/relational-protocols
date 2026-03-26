@@ -3,7 +3,6 @@ order: 24
 description: "Decisions pass unless someone has a reasoned objection – supplemented with somatic check-ins"
 tags: ["protocol", "decisions"]
 ---
-
 Part of the [[Collective decision-making]] area.
 
 **Accord.** When any group makes decisions on behalf of or affecting others in the network, it uses consent decision-making. A proposal passes unless someone has a reasoned objection – a belief, grounded in argument, that it would cause harm to the network's shared purpose or that there is a worthwhile way to improve it. The consent process follows a defined sequence: present the proposal, invite clarifying questions, hold a reaction round for thoughts and concerns, then conduct a consent round where each member states whether they have an objection. Objections are not obstacles; they reveal information that improves the agreement. A *concern* – an assumption that something *might* be problematic – does not block a proposal but is recorded alongside the agreement and informs its evaluation criteria.
