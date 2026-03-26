@@ -1,6 +1,7 @@
 ---
 order: 6
 description: "How protocols are created, adopted, evolved, and tended"
+tags: ["core"]
 ---
 
 **Shared commitments.** All protocols must serve a small set of collectively derived commitments, including an explicit reckoning with racialisation, colonialism, and extractive domination as foundational structures Fabric exists within. The precise formulation is to be developed collectively, based on existing resources like the Dedications.

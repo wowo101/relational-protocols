@@ -1,6 +1,7 @@
 ---
 order: 13
 description: "The protocol architecture creates conditions for collaborative emergence at scale"
+tags: ["foundation"]
 ---
 
 At a structural level, the protocol architecture is a system for *collaborative emergence* at scale. This is not a metaphor but a structural description: the architecture creates conditions under which the outputs of collective practice exceed what any individual agent could have planned or produced alone.

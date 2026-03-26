@@ -1,6 +1,7 @@
 ---
 order: 2
 description: "The relationship is the site of transformation – not the individual, not the organisation"
+tags: ["core"]
 ---
 
 The claim at the heart of this architecture is ontological, not merely strategic: the basic unit of transformation is the *relationship*. People and organisations don't first change internally and then build better relationships; the relationship itself is the site where change happens.

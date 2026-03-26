@@ -1,6 +1,7 @@
 ---
 order: 11
 description: "Relational transformation is local and slow – but protocols let the pattern scale beyond the dyad"
+tags: ["foundation"]
 ---
 
 If transformation happens through relationship, and relationships are inherently local, bounded, and slow, how does Fabric build collective power – which by definition requires coordination at scale? In other words, how does [[Agency in relationship builds collective power|Agency in relationship build collective power]]?

@@ -1,6 +1,7 @@
 ---
 order: 10
 description: "Technology, ceremony, and meta-relationality each contribute distinct properties to the protocol concept"
+tags: ["foundation"]
 ---
 
 The word *protocol* carries weight from three distinct traditions, and each deposits something essential in Fabric's use of the term.

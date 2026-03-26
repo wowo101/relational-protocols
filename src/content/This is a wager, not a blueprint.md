@@ -1,6 +1,7 @@
 ---
 order: 8
 description: "Five testable claims – and the conditions under which the architecture would fail"
+tags: ["core"]
 ---
 
 Everything described so far could be wrong. The architecture does not claim certainty; it claims testability. The bet is this:

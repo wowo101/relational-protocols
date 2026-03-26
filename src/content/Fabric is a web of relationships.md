@@ -1,6 +1,7 @@
 ---
 order: 1
 description: "The network's topology emerges from commitments its members actually enact"
+tags: ["core"]
 ---
 
 Fabric is, first and foremost, a web of relationships between agents for social change. Its purpose – building collective power in the service of life – is not achieved by designing a structure from above but by cultivating a pattern of *right relations* from below. The network has no fixed shape; its topology emerges from the commitments its members actually enact.

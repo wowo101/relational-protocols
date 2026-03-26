@@ -23,15 +23,12 @@ export function toSlug(id: string): string {
   return id.toLowerCase().replace(/\s+/g, "-");
 }
 
-function deriveCategory(
-  order: number,
-  tags?: string[],
-): GraphNode["category"] {
+function deriveCategory(tags?: string[]): GraphNode["category"] {
+  if (tags?.includes("core")) return "core";
+  if (tags?.includes("foundation")) return "foundation";
   if (tags?.includes("domain")) return "domain";
   if (tags?.includes("protocol")) return "protocol";
   if (tags?.includes("principle")) return "principle";
-  if (order >= 1 && order <= 8) return "core";
-  if (order >= 10 && order <= 15) return "foundation";
   return "index";
 }
 
@@ -49,7 +46,7 @@ export async function buildGraphData(): Promise<GraphData> {
       id: p.id,
       slug: toSlug(p.id),
       order: p.data.order,
-      category: deriveCategory(p.data.order, p.data.tags),
+      category: deriveCategory(p.data.tags),
       description: p.data.description,
       linkCount: 0,
     }));

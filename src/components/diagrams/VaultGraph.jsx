@@ -256,12 +256,30 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
   }, [applyDistanceHighlight, activeId]);
 
   const navigateTo = useCallback((slug) => {
+    hoveredRef.current = null;
     setActiveSlug(slug);
     if (slug) markVisited(slug);
     history.pushState(null, "", slug ? `${basePath}/${slug}/` : `${basePath}/`);
   }, [basePath, markVisited]);
 
   const handleNodeClick = useCallback((n) => navigateTo(n.slug), [navigateTo]);
+
+  // Click on graph whitespace → deselect node and go home
+  const pointerDownPos = useRef(null);
+  const handleGraphPointerDown = useCallback((e) => {
+    pointerDownPos.current = { x: e.clientX, y: e.clientY };
+  }, []);
+  const handleGraphClick = useCallback((e) => {
+    // Only act if no node was clicked
+    if (e.target.closest("g[data-nid]")) return;
+    // Ignore if it was a drag/pan (mouse moved significantly)
+    if (pointerDownPos.current) {
+      const dx = e.clientX - pointerDownPos.current.x;
+      const dy = e.clientY - pointerDownPos.current.y;
+      if (dx * dx + dy * dy > 25) return;
+    }
+    if (activeSlug) navigateTo(null);
+  }, [activeSlug, navigateTo]);
 
   useEffect(() => {
     const onPopState = () => {
@@ -437,7 +455,9 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
       <div className="flex flex-1 min-h-0">
         {/* Graph pane */}
         {graphVisible && (
-          <div className="relative w-1/2 shrink-0" ref={containerRef}>
+          <div className="relative w-1/2 shrink-0" ref={containerRef}
+            onPointerDown={handleGraphPointerDown}
+            onClick={handleGraphClick}>
             {svgContent}
 
             {tooltip && (

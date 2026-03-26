@@ -1,6 +1,7 @@
 ---
 order: 12
 description: "Protocols are not descriptions of norms but the practices through which norms come into being"
+tags: ["foundation"]
 ---
 
 A Fabric protocol is not a description of how people or organisations should relate. It is a structure of commitments and entitlements that participants attribute to one another and acknowledge for themselves – a local *space of reasons* that they construct together by entering it. When agents adopt a protocol, they are entering a practice of tracking each other's commitments, holding each other accountable, and revising their understanding of what follows from what. The protocol *is* the normative structure, not a representation of one.

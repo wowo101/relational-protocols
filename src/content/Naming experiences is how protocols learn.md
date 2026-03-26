@@ -1,6 +1,7 @@
 ---
 order: 15
 description: Freire's pedagogy and conceptual engineering – how the compass layer develops its capacity
+tags: ["foundation"]
 ---
 
 The [[Every protocol has three inseparable layers|three-layer architecture]] describes what protocols are. [[Tension drives development|Tensions]] are what committed practice naturally produces. What remains is the methodology: how do people develop the capacity to name what they're experiencing, and how does that naming become protocol evolution? This is where Paulo Freire's pedagogy and the practice of conceptual engineering enter the picture.

@@ -1,7 +1,13 @@
 ---
 order: 23
-description: "Protocols for how the network cultivates belonging, shared identity, and relational fabric"
-tags: ["domain", "care"]
+description: Protocols for how the network cultivates belonging, shared identity, and relational fabric
+tags:
+  - domain
+  - connection
 ---
 
-The connection and community domain governs how the network cultivates belonging, shared identity, and the relational fabric that holds everything else together. This domain remains to be developed; its specific [[Every protocol has three inseparable layers|three-layer]] protocols will emerge through the process described in [[Protocol stewardship is distributed]].
+The connection and community domain governs how the network cultivates belonging, shared identity, and the relational fabric that holds everything else together. This makes it one of the backbones of the whole of Fabric.
+
+The protocols of this domain focus on creating experientally rich connections internally and connecting to existing communities and their practices. They will be overlapping and interacting with [[Care and support]] protocols.
+
+This domain is sketched at the principles level; its specific protocols remain to be developed.
