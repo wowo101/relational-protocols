@@ -9,7 +9,7 @@ description: "Central terms and their meanings within the Fabric protocol archit
 
 <span id="agent">**Agent**</span> — A person or organisation that participates in the Fabric [network](#network) by [adopting](#adoption) freely chosen [protocol](#protocol) clusters. Membership is defined by which protocols an agent has adopted, not by position in a hierarchy. See [[Participating means enacting protocols]].
 
-<span id="circle">**Circle**</span> — A self-governing group that [emerges](#emergence) when [agents](#agent) [adopt](#adoption) the collective decision-making [protocol](#protocol) cluster around a shared [domain](#domain). Distinguished by its [governance](#governance) function: making and evolving the agreements that guide work within its domain. See [[Circles are the basic unit of shared governance]].
+<span id="circle">**Circle**</span> — A self-governing group that [emerges](#emergence) when [agents](#agent) [adopt](#adoption) the collective decision-making [protocol](#protocol) cluster around a shared [domain](#domain). Distinguished by its [governance](#governance) function: making and evolving the agreements that guide work within its domain. See [[Circles are a basic unit of shared governance]].
 
 <span id="compass">**Compass**</span> — In a [protocol](#protocol), the meta-relational register of recurring inquiry: does this protocol serve life, or does it reproduce separation? Examines whose interests are served, whose [voice](#voice) is absent, and what structural conditions enable or prevent participation. See [[Every protocol has three inseparable layers]].
 
@@ -21,7 +21,7 @@ description: "Central terms and their meanings within the Fabric protocol archit
 
 <span id="emergence">**Emergence**</span> — A property of a whole that cannot be found in or predicted from its parts alone. In Fabric, emergence names the irreducibly collective creative output that arises when [agents](#agent) [adopting](#adoption) the same [protocols](#protocol) develop shared capacities and become interoperable. The [network's](#network) topology itself is an emergent property of voluntary adoption. See [[What scales is the pattern of relating]].
 
-<span id="governance">**Governance**</span> — The function of making and evolving the agreements that guide how work is done, distinguished from operations by its reflective capacity to revise rather than merely coordinate. See [[Circles are the basic unit of shared governance]].
+<span id="governance">**Governance**</span> — The function of making and evolving the agreements that guide how work is done, distinguished from operations by its reflective capacity to revise rather than merely coordinate. See [[Circles are a basic unit of shared governance]].
 
 <span id="network">**Network**</span> — A system of interconnected [agents](#agent) whose structure [emerges](#emergence) from the relationships between them rather than being imposed from above. Fabric is such a network: a web of relationships between agents for social change whose topology is defined by the [protocols](#protocol) its members actually enact, with no fixed shape or central authority. See [[Fabric is a web of relationships]].
 
