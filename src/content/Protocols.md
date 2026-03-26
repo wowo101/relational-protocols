@@ -1,6 +1,6 @@
 ---
 order: 42
-description: "All worked-out protocols in the architecture, grouped by domain"
+description: "All worked-out protocols in the architecture, grouped by field"
 tags: ["protocol"]
 ---
 

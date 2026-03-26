@@ -4,7 +4,7 @@ export interface GraphNode {
   id: string;
   slug: string;
   order: number;
-  category: "core" | "foundation" | "domain" | "protocol" | "principle" | "index";
+  category: "core" | "foundation" | "field" | "protocol" | "principle" | "index";
   description: string;
   linkCount: number;
 }
@@ -26,7 +26,7 @@ export function toSlug(id: string): string {
 function deriveCategory(tags?: string[]): GraphNode["category"] {
   if (tags?.includes("core")) return "core";
   if (tags?.includes("foundation")) return "foundation";
-  if (tags?.includes("domain")) return "domain";
+  if (tags?.includes("field")) return "field";
   if (tags?.includes("protocol")) return "protocol";
   if (tags?.includes("principle")) return "principle";
   return "index";

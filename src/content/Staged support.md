@@ -4,7 +4,7 @@ description: "A clear pathway of deepening support as conflict deepens – from 
 tags: ["protocol", "conflict"]
 ---
 
-Part of the [[Conflict engagement]] domain.
+Part of the [[Conflict engagement]] field.
 
 **Accord.** A clear pathway that governs how support is offered as conflict deepens: direct conversation → peer support → mediation → structural review. At each stage, the protocol defines who can be called upon and what their role is. Drawing on transformative justice principles, the process centres the needs and agency of those harmed, supports accountability for those causing harm without abandoning them, and attends to the conditions that enabled the harm – not only the incident itself.
 

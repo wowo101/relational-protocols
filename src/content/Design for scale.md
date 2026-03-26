@@ -12,7 +12,7 @@ At the same time, build in federation, scaling and mitosis mechanisms before the
 
 **Scaling.** Governance scales by nesting circles within circles, each self-governing within its domain, [[Weaving between circles|connected by linking]] and delegation rather than hierarchy.
 
-**Mitosis.** When a circle's domain becomes too large or its membership too big for effective governance, it splits into two circles with distinct sub-domains. The circle structure reproduces itself, and the network grows from below.
+**Mitosis.** When a circle's [[Mandate clarity|domain]] becomes too large or its membership too big for effective governance, it splits into two circles with distinct sub-domains. The circle structure reproduces itself, and the network grows from below.
 
 ## Sources
 

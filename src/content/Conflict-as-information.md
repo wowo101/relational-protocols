@@ -4,7 +4,7 @@ description: "Conflict is treated as energy and information about system dynamic
 tags: ["protocol", "conflict"]
 ---
 
-Part of the [[Conflict engagement]] domain.
+Part of the [[Conflict engagement]] field.
 
 **Accord.** The network treats conflict not as failure but as energy and information about system dynamics. Any member can name a conflict without it being treated as a problem to be solved or a person to be blamed.
 

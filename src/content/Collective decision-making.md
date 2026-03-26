@@ -1,10 +1,10 @@
 ---
 order: 17
 description: "Protocols governing how the network makes decisions together – from consent rounds to role rotation"
-tags: ["domain", "decisions"]
+tags: ["field", "decisions"]
 ---
 
-The collective decision-making domain governs how groups within Fabric make decisions on behalf of or affecting others. It is one of the most developed domains with five specific protocols:
+The collective decision-making field governs how groups within Fabric make decisions on behalf of or affecting others. It is one of the most developed fields with five specific protocols:
 
 - [[Consent-as-default]]
 - [[Mandate clarity]]

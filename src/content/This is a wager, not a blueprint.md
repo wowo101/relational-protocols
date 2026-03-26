@@ -12,7 +12,7 @@ This decomposes into five claims, each testable:
 
 **Inseparability.** Three-layer protocols produce different outcomes than accord-only governance – decisions with greater follow-through, broader buy-in, fewer unintended asymmetries. Without ritual, coordination is brittle. Without compass, it is blind to whose interests it serves.
 
-**Transformation.** Practising three-layer protocols over time changes the people and organisations who adopt them. Consent practice changes how people hold *power*; conflict engagement changes how they hold *difference*; resource sharing changes how they hold *scarcity*; story harvesting changes how they hold *knowledge*; somatic practice changes how they hold *uncertainty*. Each [[Living systems become protocol domains|protocol domain]] is a bet that repeated practice produces a specific transformation.
+**Transformation.** Practising three-layer protocols over time changes the people and organisations who adopt them. Consent practice changes how people hold *power*; conflict engagement changes how they hold *difference*; resource sharing changes how they hold *scarcity*; story harvesting changes how they hold *knowledge*; somatic practice changes how they hold *uncertainty*. Each [[Living systems become protocol fields|protocol field]] is a bet that repeated practice produces a specific transformation.
 
 **Scaling.** What scales is not just coordination but the *transformative quality* of the protocols. Because ritual and compass travel with the accord, agents who share a three-layer protocol develop shared capacities and shared critical inquiry – not just shared rules. [[What scales is the pattern of relating|The pattern of relating scales]], not just the pattern of coordination.
 

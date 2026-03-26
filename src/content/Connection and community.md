@@ -2,12 +2,12 @@
 order: 23
 description: Protocols for how the network cultivates belonging, shared identity, and relational fabric
 tags:
-  - domain
+  - field
   - connection
 ---
 
-The connection and community domain governs how the network cultivates belonging, shared identity, and the relational fabric that holds everything else together. This makes it one of the backbones of the whole of Fabric.
+The connection and community field governs how the network cultivates belonging, shared identity, and the relational fabric that holds everything else together. This makes it one of the backbones of the whole of Fabric.
 
-The protocols of this domain focus on creating experientally rich connections internally and connecting to existing communities and their practices. They will be overlapping and interacting with [[Care and support]] protocols.
+The protocols of this field focus on creating experientally rich connections internally and connecting to existing communities and their practices. They will be overlapping and interacting with [[Care and support]] protocols.
 
-This domain is sketched at the principles level; its specific protocols remain to be developed.
+This field is sketched at the principles level; its specific protocols remain to be developed.
