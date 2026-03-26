@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 10
 description: "The network's topology emerges from commitments its members actually enact"
 tags: ["core"]
 ---

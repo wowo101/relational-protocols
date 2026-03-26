@@ -1,5 +1,5 @@
 ---
-order: 11
+order: 110
 description: "Relational transformation is local and slow – but protocols let the pattern scale beyond the dyad"
 tags: ["foundation"]
 ---

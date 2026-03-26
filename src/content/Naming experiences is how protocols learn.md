@@ -1,5 +1,5 @@
 ---
-order: 15
+order: 150
 description: Freire's pedagogy and conceptual engineering – how the compass layer develops its capacity
 tags: ["foundation"]
 ---

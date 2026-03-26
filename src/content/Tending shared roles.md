@@ -1,5 +1,5 @@
 ---
-order: 27
+order: 280
 description: "Key roles rotate on defined terms with overlap periods and honest reflection on power and burden"
 tags: ["protocol", "decisions"]
 ---

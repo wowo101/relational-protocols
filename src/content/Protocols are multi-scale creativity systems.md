@@ -1,5 +1,5 @@
 ---
-order: 13
+order: 130
 description: "The protocol architecture creates conditions for collaborative emergence at scale"
 tags: ["foundation"]
 ---

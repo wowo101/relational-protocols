@@ -1,5 +1,5 @@
 ---
-order: 24
+order: 250
 description: "Decisions pass unless someone has a reasoned objection – supplemented with somatic check-ins"
 tags: ["protocol", "decisions"]
 ---

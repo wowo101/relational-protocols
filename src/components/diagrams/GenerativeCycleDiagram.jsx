@@ -39,7 +39,7 @@ export default function GenerativeCycleDiagram() {
 
       <CycleLabelBg x={340} y={348} w={130} h={50} />
       <text x="340" y="338" textAnchor="middle" fontSize={11} fill="#D85A30">Enabled by</text>
-      <text x="340" y="352" textAnchor="middle" fontSize={11} fill="#D85A30">orientation layers</text>
+      <text x="340" y="352" textAnchor="middle" fontSize={11} fill="#D85A30">compass layers</text>
       <text x="340" y="370" textAnchor="middle" fontSize={10} fill="#D85A30" opacity={0.7}>Stalls: stays transactional</text>
 
       <CycleLabelBg x={192} y={138} w={140} h={50} />

@@ -21,6 +21,7 @@ description: "A brief overview offered as a contribution to collective thinking"
 - [[Protocols are multi-scale creativity systems]].
 - [[Tension drives development]].
 - [[Naming experiences is how protocols learn]].
+- [[Circles are a basic unit of shared governance]].
 - [[Living systems become protocol areas]].
 
 ## Protocol areas

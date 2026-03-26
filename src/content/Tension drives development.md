@@ -1,5 +1,5 @@
 ---
-order: 14
+order: 140
 description: The productive middle between feedback and conflict – where protocols evolve if the tension is held
 tags: ["foundation"]
 ---

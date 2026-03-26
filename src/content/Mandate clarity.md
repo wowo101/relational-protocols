@@ -1,5 +1,5 @@
 ---
-order: 25
+order: 260
 description: "The meta-protocol governing how functional responsibilities within Fabric are defined, held, and reviewed"
 tags: ["protocol", "decisions"]
 ---

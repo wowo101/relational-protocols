@@ -1,5 +1,5 @@
 ---
-order: 18
+order: 190
 description: "Protocols for treating conflict as information and energy rather than failure"
 tags: ["area", "conflict"]
 ---

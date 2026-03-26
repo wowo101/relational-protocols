@@ -1,5 +1,5 @@
 ---
-order: 16
+order: 170
 description: The original seven living systems reframed as areas within which clusters of three-layer protocols operate
 tags: ["foundation"]
 ---

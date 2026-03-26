@@ -1,5 +1,5 @@
 ---
-order: 19
+order: 200
 description: "Protocols for how resources flow between organisations – solidarity contributions, co-budgeting, mutual aid"
 tags: ["area", "resources"]
 ---

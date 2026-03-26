@@ -1,5 +1,5 @@
 ---
-order: 28
+order: 290
 description: "At least one member of each circle participates as a full member of a neighbouring circle"
 tags: ["protocol", "decisions"]
 ---

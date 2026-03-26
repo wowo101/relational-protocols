@@ -1,7 +1,7 @@
 ---
-order: 16.5
+order: 160
 description: "When agents adopt the collective decision-making protocols together around a shared domain, the governance structure that emerges is a circle"
-tags: ["decisions"]
+tags: ["foundation"]
 ---
 The relational protocol architecture does not prescribe organisational forms. It provides a grammar – [[Every protocol has three inseparable layers|three-layer protocols]], voluntary adoption, shared commitments – from which structure emerges. But some structural patterns recur, and it is worth naming them. The most recognisable is the *circle*.
 
@@ -21,9 +21,9 @@ This matters because it preserves the architecture's core freedom: agents choose
 
 Drawing on sociocratic practice, a circle is distinguished from a working group or task team by its governance function. A team *does work* together. A circle *makes and evolves the agreements* that guide how work is done within its domain. This distinction – between *operations* and *governance* – is foundational. A group that coordinates tasks but never reflects on or revises the agreements governing those tasks is a team. A group that does both is operating as a circle.
 
-Every circle has a *domain*: a distinct area of influence, activity, and decision-making. The circle clarifies what it is responsible for and empowered to decide – and what falls outside its boundary. This is the structural content of the [[Mandate clarity]] protocol.
+Every circle has a *[[Mandate clarity|domain]]*: a distinct area of influence, activity, and decision-making. The circle clarifies what it is responsible for and empowered to decide – and what falls outside its boundary.
 
-Domains can contain sub-domains. When a circle delegates a sub-domain to a smaller group that also adopts the decision-making cluster, that group becomes a circle in its own right – self-governing within the constraints set by consent. This recursive capacity is one mechanism through which the network scales. See [[Design for scale]].
+Domains can contain sub-domains. When a circle delegates a sub-domain to a smaller group that also adopts the decision-making cluster, that group becomes a circle in its own right – self-governing within the constraints set by consent. This recursive capacity is one mechanism through which the network [[Design for scale|scales]].
 
 ## Three-layer expression
 

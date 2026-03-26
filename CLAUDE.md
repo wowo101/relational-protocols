@@ -52,6 +52,23 @@ Every Fabric protocol has three inseparable layers (ARC):
 
 Membership in the network is defined by which protocol clusters an agent adopts, not by position in a hierarchy. The network topology emerges from below.
 
+## Note Ordering
+
+Notes use a spaced `order` field (frontmatter) for prev/next navigation. Values are spaced by 10 so new notes can be inserted without renumbering existing ones.
+
+| Range | Section |
+|-------|---------|
+| 10–80 | Core narrative (8 notes) |
+| 100–170 | Foundations |
+| 180–240 | Protocol areas |
+| 250–290 | Decision protocols |
+| 300–320 | Conflict protocols |
+| 330–390 | Design principles |
+| 400 | Protocols overview |
+| 900+ | Special pages (Glossary, Sources) |
+
+To insert a note between order 150 and 160, use 155. The code filters out `order === 0` (Index) and `order >= 900` (special pages) from the graph and navigation.
+
 ## Content Conventions
 
 ### Sources

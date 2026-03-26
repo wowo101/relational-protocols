@@ -1,5 +1,5 @@
 ---
-order: 21
+order: 220
 description: Protocols for how information moves between circles and organisations
 tags:
   - area

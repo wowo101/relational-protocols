@@ -1,5 +1,5 @@
 ---
-order: 23
+order: 240
 description: Protocols for how the network cultivates belonging, shared identity, and relational fabric
 tags:
   - area

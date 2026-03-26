@@ -1,5 +1,5 @@
 ---
-order: 22
+order: 230
 description: "Protocols for how the network tends to wellbeing and welcomes new members"
 tags: ["area", "care"]
 ---

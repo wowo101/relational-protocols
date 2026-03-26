@@ -1,5 +1,5 @@
 ---
-order: 35
+order: 360
 description: "Shared protocols create interoperability between strangers, not only between friends"
 tags: ["principle"]
 ---
@@ -15,5 +15,5 @@ At the same time, build in federation, scaling and mitosis mechanisms before the
 
 ## Sources
 
-- Fractal organisation pattern adapted from Bockelbrink, Priest & David (2019), *Sociocracy 3.0 – A Practical Guide*
+- Delegate circle pattern adapted from Bockelbrink, Priest & David (2019), *Sociocracy 3.0 – A Practical Guide*
 - Evolutionary circle structure from Rau (2023), *Collective Power: Patterns for a Self-Organized Future*
