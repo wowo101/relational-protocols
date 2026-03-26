@@ -6,11 +6,13 @@ tags: ["principle"]
 
 Shared protocols create interoperability: agents who adopt the same protocol can act together even without direct relationship. Design protocols so they work between strangers, not only between friends. This is what enables the network to grow beyond the trust radius of any single relationship – and it is what distinguishes a protocol architecture from a community of practice.
 
-At the same time, build in federation and mitosis mechanisms before they are needed, so that growth produces distributed capacity rather than centralised coordination:
+At the same time, build in federation, scaling and mitosis mechanisms before they are needed, so that growth produces distributed capacity rather than centralised coordination. Possible models include:
 
-**Federation.** Multiple [[Circles are the basic unit of shared governance|circles]] with similar or overlapping domains can form a delegate circle – each constituent circle selects a member to participate in a shared governance space where they align policies, share learning, and evolve agreements that affect all of them. Governance scales by nesting circles within circles, each self-governing within its domain, connected by linking and delegation rather than hierarchy.
+**Federation.** Multiple [[Circles are the basic unit of shared governance|circles]] with similar or overlapping [[Mandate clarity|domains]] can form a delegate circle – each constituent circle selects a member to participate in a shared governance space where they align policies, share learning, and evolve agreements that affect all of them.
 
-**Mitosis.** When a circle's domain becomes too large or its membership too big for effective governance, it splits into two circles with distinct sub-domains, linked by a [[Weaving between circles|weaver]]. The circle structure reproduces itself, and the network grows from below.
+**Scaling.** Governance scales by nesting circles within circles, each self-governing within its domain, [[Weaving between circles|connected by linking]] and delegation rather than hierarchy.
+
+**Mitosis.** When a circle's domain becomes too large or its membership too big for effective governance, it splits into two circles with distinct sub-domains. The circle structure reproduces itself, and the network grows from below.
 
 See also [[What scales is the pattern of relating]].
 

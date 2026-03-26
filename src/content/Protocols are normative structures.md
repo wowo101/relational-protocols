@@ -26,7 +26,7 @@ Neither perspective is dispensable. Third-person explanations that aren't ground
 ## Sources
 
 - Norms constituted through social practices of mutual recognition from Brandom (1994), *Making It Explicit: Reasoning, Representing, and Discursive Commitment*
-- Hegelian constructivism applied to metaethics from Wopperer-Beholz, "Expressivism, Constructivism, and Metaethics" (BA thesis)
+- Hegelian constructivism and thre first-/third-person framing from Wopperer-Beholz, "Expressivism and Constructivism in Metaethics" (BA thesis)
 - Self-organised criticality from Bak (1996), *How Nature Works: The Science of Self-Organized Criticality*
 - Free energy principle from Friston (2010), "The free-energy principle: a unified brain theory?"
 - Scale-invariant agency from Levin (2022), "Technological Approach to Mind Everywhere: An Experimentally-Grounded Framework for Understanding Diverse Bodies and Minds"

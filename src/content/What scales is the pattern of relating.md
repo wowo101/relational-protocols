@@ -19,4 +19,4 @@ The challenge will be to not only make the accord layer of a protocol scalable, 
 
 ## Sources
 
-- Collaborative emergence theory from Sawyer (2005), *Social Emergence: Societies as Complex Systems* and (2017), *Group Genius: The Creative Power of Collaboration*
+- Collaborative emergence theory from Sawyer (2005), *Social Emergence: Societies as Complex Systems*

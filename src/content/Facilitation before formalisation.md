@@ -12,4 +12,4 @@ The same logic applies at a smaller scale: every protocol version is a hypothesi
 
 ## Sources
 
-- Safe-to-fail experimentation in complex domains from Snowden & Boone (2007), "A Leader's Framework for Decision Making" (*Harvard Business Review*), drawing on the Cynefin framework
+- Safe-to-fail experimentation in complex domains from the the Cynefin framework as initially proposed in Snowden & Boone (2007), "A Leader's Framework for Decision Making" (*Harvard Business Review*)

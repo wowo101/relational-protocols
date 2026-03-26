@@ -44,7 +44,7 @@ export async function buildGraphData(): Promise<GraphData> {
   const idLower = new Map(pages.map((p) => [p.id.toLowerCase(), p.id]));
 
   const nodes: GraphNode[] = pages
-    .filter((p) => p.data.order !== 0)
+    .filter((p) => p.data.order !== 0 && p.data.order < 90)
     .map((p) => ({
       id: p.id,
       slug: toSlug(p.id),
@@ -60,7 +60,7 @@ export async function buildGraphData(): Promise<GraphData> {
   const edges: GraphEdge[] = [];
 
   for (const page of pages) {
-    if (page.data.order === 0) continue;
+    if (page.data.order === 0 || page.data.order >= 90) continue;
     const body = page.body || "";
     let match: RegExpExecArray | null;
     WIKILINK_RE.lastIndex = 0;

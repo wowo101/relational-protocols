@@ -1,0 +1,92 @@
+---
+import "../../styles/global.css";
+import { getCollection } from "astro:content";
+import { toSlug } from "../../lib/buildGraphData";
+
+const allPages = await getCollection("pages");
+
+// Extract sources from all notes
+const refMap = new Map<string, Set<string>>(); // normalized ref → set of note titles
+
+for (const page of allPages) {
+  if (page.data.order === 0) continue;
+  const body = page.body || "";
+
+  // Split by heading boundaries and find the Sources section
+  const sections = body.split(/\n(?=## )/);
+  const sourcesSection = sections.find((s) => s.startsWith("## Sources"));
+  if (!sourcesSection) continue;
+
+  const lines = sourcesSection
+    .split("\n")
+    .map((l) => l.trim())
+    .filter((l) => l.startsWith("- "));
+
+  for (const line of lines) {
+    const raw = line.slice(2).trim();
+
+    // Find the start of the actual citation: Author (Year) pattern
+    const authorYearMatch = raw.match(/(?:^|[\s,;])([A-Z][a-zà-ü]+(?:[\s,&]+(?:de\s+)?[A-Z][a-zà-ü]+)*\s+\(\d{4}\))/);
+    let ref: string;
+    if (authorYearMatch) {
+      const idx = raw.indexOf(authorYearMatch[1]);
+      ref = raw.slice(idx);
+    } else {
+      ref = raw
+        .replace(/^.*?\b(?:from|adapted from|draws on|detailed in|see(?:\s+e\.g\.)?)\s+/i, "")
+        .replace(/^the\s+/, "");
+    }
+
+    // Split combined references: "Author (Year), *Title* and Author (Year), *Title*"
+    const splitMatch = ref.match(/^(.+?\*)\s+and\s+([A-Z][a-zà-ü].+)$/);
+    const refs = splitMatch ? [splitMatch[1], splitMatch[2]] : [ref];
+
+    for (const r of refs) {
+      if (!refMap.has(r)) {
+        refMap.set(r, new Set());
+      }
+      refMap.get(r)!.add(page.id);
+    }
+  }
+}
+
+// Sort alphabetically by reference string
+const sorted = [...refMap.entries()].sort((a, b) =>
+  a[0].localeCompare(b[0], undefined, { sensitivity: "base" }),
+);
+
+const basePath = import.meta.env.BASE_URL;
+
+function renderRef(ref: string): string {
+  return ref
+    .replace(/\*([^*]+)\*/g, "<em>$1</em>")
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2">$1</a>');
+}
+---
+
+<html lang="en">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <section class="leading-relaxed">
+      <p class="text-sm opacity-60 mb-6">{sorted.length} references across {allPages.filter(p => p.data.order > 0).length} notes</p>
+      <ul class="space-y-3 list-none pl-0">
+        {sorted.map(([ref, notes]) => {
+          const noteArr = [...notes];
+          return (
+            <li>
+              <span set:html={renderRef(ref)} />
+              <span class="text-xs opacity-40 ml-1">
+                {noteArr.map((id, i) => (
+                  <><a href={`${basePath}/${toSlug(id)}/`}
+                    title={id}
+                    class="internal-link opacity-60 hover:opacity-100"
+                    data-slug={toSlug(id)}>{i + 1}</a>{i < noteArr.length - 1 && ", "}</>
+                ))}
+              </span>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  </body>
+</html>

@@ -4,7 +4,7 @@ description: "All worked-out protocols in the architecture, grouped by domain"
 tags: ["protocol"]
 ---
 
-Each protocol below carries all [[Every protocol has three inseparable layers|three layers]] – accord, ritual, and compass.
+A protocol is a freely adopted agreement about how to be in relationship — how to make decisions together, share resources, hold conflict, and learn. Each protocol below carries all [[Every protocol has three inseparable layers|three layers]] – accord, ritual, and compass.
 
 ## [[Collective decision-making]]
 

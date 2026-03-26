@@ -33,7 +33,7 @@ function computeDistances(focalId, edges) {
   return dist;
 }
 
-function ActiveHeader({ title, slug, nodes, basePath, onClose, onNavigate }) {
+function ActiveHeader({ title, slug, nodes, basePath, onNavigate }) {
   const node = nodes.find((n) => n.slug === slug);
   const tag = node?.category;
   const tagLabel = tag && CATEGORY_LABELS[tag];
@@ -42,14 +42,7 @@ function ActiveHeader({ title, slug, nodes, basePath, onClose, onNavigate }) {
   const pillStyle = { backgroundColor: tagColors?.fill + "20", color: tagColors?.fill };
   return (
     <>
-      <div className="flex justify-between items-start mb-2">
-        <h1 className="text-2xl font-medium">{title || "Loading…"}</h1>
-        <button onClick={onClose}
-          className="text-sm opacity-40 hover:opacity-80 shrink-0 ml-4 cursor-pointer"
-          title="Back to overview">
-          ✕
-        </button>
-      </div>
+      <h1 className="text-2xl font-medium mb-2">{title || "Loading…"}</h1>
       {tagLabel && (
         <div className="mb-6">
           {tagIndexSlug ? (
@@ -100,7 +93,11 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
     [nodes]
   );
   const activeNode = activeSlug ? nodes.find((n) => n.slug === activeSlug) : null;
-  const contentTitle = activeNode ? activeNode.id : "A relational protocol architecture for Fabric";
+  const contentTitle = activeNode
+    ? activeNode.id
+    : activeSlug
+      ? activeSlug.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")
+      : "A relational protocol architecture for Fabric";
   const prevNext = useMemo(() => {
     if (!activeNode) return { prev: null, next: null };
     const idx = sortedCoreNodes.findIndex((n) => n.slug === activeSlug);
@@ -414,13 +411,26 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
 
   return (
     <div className="flex flex-col" style={{ height: "100vh" }}>
-      {/* Header bar with graph toggle */}
+      {/* Header bar with graph toggle + nav */}
       <div className="flex justify-between items-center px-4 py-2 text-sm shrink-0"
         style={{ borderBottom: "1px solid var(--color-border-tertiary, #d3d1c7)" }}>
         <button onClick={() => setGraphVisible((v) => !v)}
           className="opacity-60 hover:opacity-100 transition-opacity">
           {graphVisible ? "Hide graph" : "Show graph"}
         </button>
+        <nav className="flex gap-3 opacity-50">
+          <a href={`${basePath}/`} className="hover:opacity-80"
+            style={{ textDecoration: "none" }}
+            onClick={(e) => { e.preventDefault(); navigateTo(null); }}>Home</a>
+          <span className="opacity-30">&middot;</span>
+          <a href={`${basePath}/glossary/`} className="hover:opacity-80"
+            style={{ textDecoration: "none" }}
+            onClick={(e) => { e.preventDefault(); navigateTo("glossary"); }}>Glossary</a>
+          <span className="opacity-30">&middot;</span>
+          <a href={`${basePath}/sources/`} className="hover:opacity-80"
+            style={{ textDecoration: "none" }}
+            onClick={(e) => { e.preventDefault(); navigateTo("sources"); }}>Sources</a>
+        </nav>
       </div>
 
       {/* Main split */}
@@ -491,7 +501,6 @@ export default function VaultGraph({ nodes, edges, basePath, initialSlug = null 
                 slug={activeSlug}
                 nodes={nodes}
                 basePath={basePath}
-                onClose={() => navigateTo(null)}
                 onNavigate={navigateTo}
               />
             )}
