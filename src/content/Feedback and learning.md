@@ -1,12 +1,12 @@
 ---
 order: 20
 description: "Protocols for how the network learns from its own experience – story harvesting, structural review, retrospectives"
-tags: ["field", "feedback"]
+tags: ["area", "feedback"]
 ---
 
-The feedback and learning field governs how the network learns from its own experience by surfacing and processing tensions. It is central to Fabric because [[tension drives development]]; it provides the input and feedback necessary for [[Protocol stewardship is distributed|distributed protocol stewardship]].
+The feedback and learning area governs how the network learns from its own experience by surfacing and processing tensions. It is central to Fabric because [[tension drives development]]; it provides the input and feedback necessary for [[Protocol stewardship is distributed|distributed protocol stewardship]].
 
-The field includes protocols for:
+The area includes protocols for:
 
 **Story harvesting** – how experience is shared and sense-made across the network.
 
@@ -16,9 +16,9 @@ The field includes protocols for:
 
 Each protocol requires [[Every protocol has three inseparable layers|ritual and compass layers]] attending to: whether feedback practices are extractive, whose knowledge counts, and whether the network is learning or merely reporting. 
 
-As conflict can be understood unprocessed feedback, the feedback and learning field is closely connected to [[Conflict engagement]].
+As conflict can be understood unprocessed feedback, the feedback and learning area is closely connected to [[Conflict engagement]].
 
-This field is sketched at the principles level; its specific protocols remain to be developed.
+This area is sketched at the principles level; its specific protocols remain to be developed.
 
 ## Sources
 

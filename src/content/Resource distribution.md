@@ -1,10 +1,10 @@
 ---
 order: 19
 description: "Protocols for how resources flow between organisations – solidarity contributions, co-budgeting, mutual aid"
-tags: ["field", "resources"]
+tags: ["area", "resources"]
 ---
 
-The resource distribution field governs how resources flow between the nodes of the network. It is central to [[Protocols enable a cycle of deepening relationships|enable a cycle of deepening relationships]]. It includes protocols for:
+The resource distribution area governs how resources flow between the nodes of the network. It is central to [[Protocols enable a cycle of deepening relationships|enable a cycle of deepening relationships]]. It includes protocols for:
 
 **Solidarity contributions** – how resources flow between network members of different means, with what transparency, governed by what contribution and distribution criteria.
 
@@ -17,7 +17,7 @@ The resource distribution field governs how resources flow between the nodes of 
 
 Each protocol requires [[Every protocol has three inseparable layers|ritual and compass layers]] attending to: whose labour is invisible, whose needs go unmet, and whether resource flows are prefiguring alternatives or reproducing extraction.
 
-This field is sketched at the principles level; its specific protocols remain to be developed.
+This area is sketched at the principles level; its specific protocols remain to be developed.
 
 ## Sources
 

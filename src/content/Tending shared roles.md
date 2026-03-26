@@ -4,7 +4,7 @@ description: "Key roles rotate on defined terms with overlap periods and honest 
 tags: ["protocol", "decisions"]
 ---
 
-Part of the [[Collective decision-making]] field.
+Part of the [[Collective decision-making]] area.
 
 A role is an area of accountability – a sub-domain – delegated by a group to an individual, the role keeper, who has autonomy to decide and act within the role's defined constraints. When this protocol is adopted alongside the rest of the [[Collective decision-making]] cluster, roles emerge within [[Circles are a basic unit of shared governance|circles]] through consent-based selection. But roles can also be defined in other contexts – wherever a group needs to delegate a bounded area of responsibility to a person. The role keeper is not the role: holding a function is not the same as being identified with it. This distinction – *role vs. soul* – is central to preventing the accumulation of informal authority.
 

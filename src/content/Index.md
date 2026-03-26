@@ -22,9 +22,9 @@ description: "A brief overview offered as a contribution to collective thinking"
 - [[Protocols are multi-scale creativity systems]].
 - [[Tension drives development]].
 - [[Naming experiences is how protocols learn]].
-- [[Living systems become protocol fields]].
+- [[Living systems become protocol areas]].
 
-## Protocol fields
+## Protocol areas
 
 1. [[Collective decision-making]].
 2. [[Conflict engagement]].

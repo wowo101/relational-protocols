@@ -4,7 +4,7 @@ description: "All mandates, role holders, and decision records are accessible to
 tags: ["protocol", "decisions"]
 ---
 
-Part of the [[Collective decision-making]] field.
+Part of the [[Collective decision-making]] area.
 
 **Accord.** All mandates, role holders, and decision records are accessible to anyone in the network. Every group that adopts this protocol maintains a logbook – a coherent, accessible record of its agreements, domain descriptions, role selections, and governance decisions. Every agreement in the logbook records: the need or driver it responds to, the decision itself, who is accountable for its implementation, evaluation criteria, and a review date. When the full [[Collective decision-making]] cluster is adopted, these logbooks become the visible record of a [[Circles are a basic unit of shared governance|circle's]] governance. This governs the relationship between those who decide and those affected by decisions, ensuring that authority is always visible and that agreements are always revisable.
 
