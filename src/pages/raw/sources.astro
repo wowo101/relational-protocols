@@ -26,7 +26,7 @@ for (const page of allPages) {
     const raw = line.slice(2).trim();
 
     // Find the start of the actual citation: Author (Year) pattern
-    const authorYearMatch = raw.match(/(?:^|[\s,;])([A-Z][a-zà-ü]+(?:[\s,&]+(?:de\s+)?[A-Z][a-zà-ü]+)*\s+\(\d{4}\))/);
+    const authorYearMatch = raw.match(/(?:^|[\s,;])([A-Z][a-zà-ü]+(?:-[A-Z][a-zà-ü]+)*(?:[\s,&]+(?:de\s+)?[A-Z][a-zà-ü]+(?:-[A-Z][a-zà-ü]+)*)*\s+\(\d{4}\))/);
     let ref: string;
     if (authorYearMatch) {
       const idx = raw.indexOf(authorYearMatch[1]);

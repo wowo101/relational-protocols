@@ -10,3 +10,8 @@ The unit of design is therefore not the organisation chart or the governance bod
 The concept of a [[Protocol draws on three traditions]]: technology, ceremony, and decolonial inquiry.
 
 Its concrete applications is that [[Participating means enacting protocols]]: membership in Fabric is defined by which protocols you adopt.
+
+## Sources
+
+- On the concept of *right relations*, see Gram-Hanssen, Schafenacker & Bentz (2022), “Decolonizing transformations through ‘right relations’”
+- Concept and label of _relational protocols_ from the [Meta-Relationality Institute](https://metarelationality.institute/) (MRI)
